@@ -1,6 +1,4 @@
 
-安装 [chrome-Daily-Front-End-news](https://github.com/FengShangWuQi/chrome-Daily-Front-End-news) 扩展，查看每日资讯。
-
 > # Daily-Front-End-News
 
 ## HTTP 2
