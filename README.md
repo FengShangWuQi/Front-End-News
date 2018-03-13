@@ -3,21 +3,22 @@
 
 > # Daily-Front-End-News
 
-### 浏览器
+### JavaScript
 
-- [Chrome65 的新功能](https://developers.google.com/web/updates/2018/03/nic65)：CSS Paint API 允许使用编程方式生成图像，Server Timing API 允许服务器将时间信息通过 HTTP headers 传递给浏览器，CSS display: contents 可使盒子消失。
-
-### Node
-
-- [Pandora.js 专业的 Node.js 应用监控管理器，阿里开源](https://github.com/midwayjs/pandora/wiki/Pandora.js---%E4%B8%93%E4%B8%9A%E7%9A%84-Node.js-%E5%BA%94%E7%94%A8%E7%9B%91%E6%8E%A7%E7%AE%A1%E7%90%86%E5%99%A8%EF%BC%8C%E9%98%BF%E9%87%8C%E5%BC%80%E6%BA%90)：Pandora.js是阿里巴巴开源的一个Node.js 应用监控管理器，可以让您对自己的 Node.js 应用了若指掌，让应用可管理、可度量、可追踪。这是该项目 git 仓库上的一篇入门指导。
+- [经验分享 | JavaScript反调试技巧](http://www.freebuf.com/articles/system/163579.html)：这篇文章讨论了如何给代码主动调试增加困难，给那些想要分析你 JavaScript 代码的人增加一定的难度。文中提出的反调试技巧包括检测未知的执行环境、检测调试工具（例如 DevTools ）、代码完整性控制、流完整性控制和反模拟。 
 
 ### 可视化
 
-- [用于 Web 应用程序的 12 个现代化后台管理模板](https://www.bootstrapdash.com/admin-templates-for-web-applications-2017/)：后台管理模板（Admin Template）使开发人员可以更方便快捷地开发后台管理系统。有了它，你不必再过多纠结于设计，代码，自适应，浏览器兼容等一系列问题。大部分后台管理模板都考虑到了这些问题，你要做的只是定制模板并将其集成到你的后台中。本文列出了一些别具一格，功能强大且兼具用户友好特性的现代化后台管理模板，可用于管理网站内容，监控统计数据和控制活动。
+- [Boxy SVG - 基于 Web 的 SVG 编辑器](https://boxy-svg.com/app)：Boxy SVG 是一款基于 Web 的 SVG 编辑器
 
-### eBook
+### 工具
 
-- [You Got This! Zine](https://glitch.com/you-got-this)：一本图文并茂的 20 页小册，帮助新手快速了解如何使用 nodejs 搭建 web 应用。
+- [Fontanello - 查看网页字体信息的浏览器插件](https://fontanello.oktavilla.se/)：一款 Chrome 和 Firefox 的浏览器插件，通过右键单击显示选定文本的字体样式信息。
+
+### 面试
+
+- [因为太难而被禁用的 17 道 Google 面试题](http://www.independent.co.uk/news/business/google-used-to-ask-these-interview-questions-but-theyre-so-hard-they-were-banned-a6944276.html)：即使是最成功的公司，它的招聘过程有时也会很不靠谱，经常会出一些奇怪的看似没有答案的面试问题，但标准答案却让应聘者还没来得及接近「起跑线」就被「退赛」了。Google 曾经就是这样的公司，招聘人员会出一些难为应聘者的高质量问题。
+
 
 > # 贡献
 
