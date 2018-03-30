@@ -3,21 +3,22 @@
 
 > # Daily-Front-End-News 
 
-### 前端
+### CSS
 
-- [一种方便的跨域开发解决方案](http://t.cn/Rnm7srv)：作者清楚解释了 create-react-app 中 package.json 中的 proxy 参数是作用在什么地方以及是怎么样做到把访问页面的请求和访问 REST API 的请求区分开两个问题；
+- [关于 CSS 变量，你需要了解的一切](https://juejin.im/post/5ab835225188255572085af4)：本文主要将向你展示变量是如何在原生 CSS 中工作的，以及怎样使用变量让你的编程工作更轻松;
 
-### Node
+### React
 
-- [从头实现一个 koa 框架](https://zhuanlan.zhihu.com/p/35040744)：本文主要向大家展示如何从头开发实现一个 koa 框架，在这个过程中，koa 中最重要的几个概念和原理都会得到展现；
+- [用新的 React 上下文 API 替换 Redux](http://t.cn/RnbxrEl)：React 16.3 附带的新上下文 API 非常简洁，它是在过去几个月趋势中呈现的渲染道具风格中建立的，本文继续进一步使用类似 Flux 的实现；
 
 ### 工具
 
-- [Pell](https://github.com/jaredreich/pell)：一款简单的 WYSIWYG web 文本编辑器，由 ES6 编写，无任何依赖，最小压缩版仅 1.38kb；
+- [UnCSS](https://github.com/uncss/uncss)：删除未使用的样式；
 
 ### 可视化
 
-- [网络的演变](http://www.evolutionoftheweb.com/?hl=zh-cn)：一个关于浏览器技术和互联网发展的可视化 demo；
+- [使用 Firebase 和 NLP 构建实时 Twitter 情绪仪表板](http://t.cn/Rnm73A2)：本文介绍了基于 Firebase 和 NLP 实现 Twitter 数据分析和可视化的方法；
+
 > # TODO
 
 - [ ] 持续 **更新** 资讯；
