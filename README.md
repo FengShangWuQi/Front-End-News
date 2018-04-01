@@ -3,21 +3,21 @@
 
 > # Daily-Front-End-News
 
-### JavaScript
-
-- [Javascript 30 小结](http://t.cn/Rnd3ZcI)：Wes Bos 制作了一个叫做 Javascript 30 超级棒的课程，并且免费赠送，本文是作者的一些笔记，希望能给读者带来 Javascript 和 CSS 不一样的收获；
-
-### CSS
-
-- [简单的 CSS 西瓜动画教程](http://t.cn/RndRQXq)：作者带领大家逐步使用 CSS 制作西瓜动画，CSS 动画初学者值得一看；
-
 ### 前端
 
-- [原来前端工程的编译可以这样优化](http://t.cn/RnB9hUz)：通过对压缩器、打包工具，以及模板引擎处理的讲解，来更深入的理解编译时优化是如何作用的，同时详细介绍了 Vue 是如何处理编译时优化的，以及未来前端领域在编译时上能做出那些更出色的优化；
+- [前端全栈什么鬼？K型人才什么鬼](http://t.cn/RnBOL2N)：作者赞同前端就是后端服务与人机界面的连接器，不管这个人机界面的介质是屏幕还是其它东西，认为全栈工程师从最开始是为小型应用而生，想让它解决一切只是幻想，认为目前会一门前端和一门后端就自称是全程工程师和会 Node 就称 Node 全栈是并不明智的；
 
-### 机器学习
+### JavaScript
 
-- [还纠结选机器学习还是深度学习？看完你就有数了](http://t.cn/RndJC2G)：机器学习是人工智能的一部分，深度学习是机器学习的一部分，本文从概念介绍，到深度剖析等带领大家快速入门；
+- [ES 语法新提案](https://github.com/tc39/proposal-pattern-matching)：用于模式匹配的 match 命令，表达能力惊人；
+
+### React
+
+- [awesome-react-context](https://github.com/diegohaz/awesome-react-context)：学习 React 新 Context API 的必备资源列表；
+
+### 视频
+
+- [React 技术专场交流活动](http://www.itdks.com/eventlist/detail/1975)：既 2017 前端大会和刚刚谢幕的黑客松之后，FCC 成都社区马不停蹄地开启了新的活动 —— React 技术专场交流活动 ，旨在为刚刚燃起来的成都技术氛围再添新彩；
 
 
 > # TODO
