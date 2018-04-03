@@ -3,22 +3,25 @@
 
 > # Daily-Front-End-News
 
+### JavaScript
+
+- [为什么下面两行代码，一行报错，另一行不报错](https://twitter.com/ruanyf/status/980976233348440064)：
+```js
+let f1 = () => { a: 1 }; // 不报错
+let f2 = () => { id, name: 'temp' } // 报错
+```
+
 ### 前端
 
-- [Cloudflare 推出最快公共 DNS 服务 1.1.1.1，速度远超 8.8.8.8](http://t.cn/RmPOQQG)：4 月 1 日，全球顶级 CDN 提供商 Cloudflare 宣布其正式推出 1.1.1.1 公共 DNS 服务，用户可以使用它来加快互联网访问速度，同时保持连接的私密性；
+- [什么是蓝绿部署](http://t.cn/RnsaPqB)：作者从停机部署的问题出发，带领大家认识蓝绿部署和滚动部署；对比 remote；
 
-### 区块链
+### Git
 
-- [区块链技术将从三个方面改变信息安全行业](https://www.ctocio.com/ccnews/23195.html)：一方面人们担忧区块链技术应用面临的安全风险，另外一方面，区块链技术本身正在推动一场信息安全技术变革；
+- [在你已经知道 add 和 commit 之后](http://t.cn/RmPdX3t)：编辑配置文件；子模块；使用 merge 工具；删除本地修改；添加别名等；
 
-### python
+### 视频
 
-- [Python 最值得收藏的 10 个开源项目](http://t.cn/RmPWPw6)：为了选出 Top10 项目，Mybrige AI 在 3 月测评了多达 250 个 Python 开源项目并比较了这些项目的最新和主力版本，根据多种指标进行排名，给大家找出最干货的项目；
-
-### 安全
-
-- [这年头, 普通人也该认识这些黑客工具吧](http://t.cn/RmPY4UL)：随着安全领域的不断发展，黑客技术已变得越来越普遍。所以作为一名网民，真的很有必要了解甚至尝试一下这些开源的黑客工具，但是请不要将它们用在非法用途；
-
+- [学习如何使用 GraphQL 和 React 构建应用](https://www.youtube.com/playlist?list=PLN3n1USn4xlkdRlq3VZ1sT6SGW0-yajjL)：Ben Awad 已经在 React，PostreSQL，GraphQL，Apollo 等主题上发布了大约 3 年的视频，其中 React 和 GraphQL 系列共计 73 个视频，时长共计超过 15 小时；
 
 > # TODO
 
