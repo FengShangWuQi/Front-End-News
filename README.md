@@ -3,21 +3,13 @@
 
 > # Daily-Front-End-News
 
-### 前端
+### 可视化
 
-- [狼叔：Node 全栈为前端带来更多可能](http://t.cn/RmcIze4)：InfoQ 独家采访了阿里巴巴前端技术专家、Node 技术传道者桑世龙（狼叔），为大家解答关于 Node 的问题，以及开发者在日新月异的技术迭代环境中应该如何建立起自己的“大局观”，阅读时间估计 26 分钟；
+- [flamebearer](https://github.com/mapbox/flamebearer)：Node 和 V8 快速生成火焰图（flame graph）的工具，它可用于可视化以及性能分析，能快速设计和制作出轻量级的火焰图，而且能在大量输入时保持响应；
 
-### JavaScript
+### 阅读
 
-- [ECMAScript 2016，2017 和 2018 新增功能以及示例](http://t.cn/RmcCIcg)：ECMAScript 各种新版本中添加的新特性是很难追踪的，更重要的是，如果不在几个版本之间跳跃的话，很难获得有用的示例，本文作者介绍了 ES2016、ES2017 和 ES2018 在 TC39 已完成的提案中列出的所有 18 个功能，同时还有一些不错的示例；
-
-### 工具
-
-- [顶级 JavaScript VSCode 扩展](http://t.cn/RmcCH8L)： VSCode 是一个开源的跨平台编辑器，它已经成为程序员的最爱，尤其是在 Web 开发社区，它具有速度快、可扩展、可定制等优质性能，目前，已经有将近上千个 VSCode 的扩展项目，作者在文中列出了一些他日常使用的项目，包括 Quokka.js、Snippets、Todo Highlighter 等；
-
-### 人工智能
-
-- [TensorFlow.js 简介：使用 Javascript 进行机器学习](http://t.cn/Rn3KFpZ)：3 月 31 日的 2018 TensorFlow 开发者峰会上，Google 宣布了 TensorFlow 重大更新，增加了对 JavaScript 的支持，并推出了一个开源库 TensorFlow.js，有了它，你可以使用 JavaScript 和 high-level layers API 在浏览器中定义、训练、运行机器学习模型；
+- [你是怎么看待 Facebook 数据泄露事件的？中国律师有话说](http://t.cn/Rmcj8q5)： 保证在取得用户的充分授权后方可向第三方提供相关数据；应当对个人信息和重要数据在境内外的传输进行安全评估；强化对信息数据传输过程中的监管和审计；完善网络安全事件的应急预案和信息披露；
 
 > # TODO
 
