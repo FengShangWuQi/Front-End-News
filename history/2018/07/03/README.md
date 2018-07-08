@@ -12,7 +12,7 @@
 
 ## 移动端
 
-- [深入理解flutter的编译原理与优化](https://yuque.com/xytech/flutter/sh4fbm)：闲鱼是国内最早几个使用 Flutter 开发的 App。他们写一组系列文章，介绍 Flutter 的使用感想和开发经验；
+- [深入理解 flutter 的编译原理与优化](https://yuque.com/xytech/flutter/sh4fbm)：闲鱼是国内最早几个使用 Flutter 开发的 App。他们写一组系列文章，介绍 Flutter 的使用感想和开发经验；
 
 ## 开源项目
 
