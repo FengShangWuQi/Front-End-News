@@ -1,4 +1,3 @@
-
 > # Daily-Front-End-News
 
 ## 前端
@@ -15,4 +14,4 @@
 
 ## 可视化
 
-- [Babylon.js 3.2 版改进了 3D 渲染](http://www.infoq.com/cn/news/2018/05/babylonjs-32-release-3d-renderin)：Babylon.js 是一种用 TypeScript 编写的 JavaScript 框架，用于结合 HTML5、WebGL、WebVR和Web Audio 构建 3D 游戏和体验，它提供从 Blender、Unity、3DS Max、Maya 和 Clara.io 等常用 3D 工具导出 Babylon.js 对象的工具，3.2 版为 Babylon JavaScript 引擎引入了多种新的缓存层，减少了 JavaScript 的执行时间，节省了 3D GPU 计算所占用的浏览器资源；
+- [Babylon.js 3.2 版改进了 3D 渲染](http://www.infoq.com/cn/news/2018/05/babylonjs-32-release-3d-renderin)：Babylon.js 是一种用 TypeScript 编写的 JavaScript 框架，用于结合 HTML5、WebGL、WebVR 和 Web Audio 构建 3D 游戏和体验，它提供从 Blender、Unity、3DS Max、Maya 和 Clara.io 等常用 3D 工具导出 Babylon.js 对象的工具，3.2 版为 Babylon JavaScript 引擎引入了多种新的缓存层，减少了 JavaScript 的执行时间，节省了 3D GPU 计算所占用的浏览器资源；

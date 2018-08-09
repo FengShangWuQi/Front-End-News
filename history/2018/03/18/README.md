@@ -1,5 +1,4 @@
-
-> # Daily-Front-End-News 
+> # Daily-Front-End-News
 
 ## CSS
 
@@ -7,7 +6,7 @@
 
 ## Node
 
-- [使用 JavaScript 自动化爬取 Web 内容的指南（Chrome + Puppeteer + Node JS）](http://t.cn/RnndPC3)：本文是一片是一篇介绍如何使用无头chrome自动化爬取web内容的指南。
+- [使用 JavaScript 自动化爬取 Web 内容的指南（Chrome + Puppeteer + Node JS）](http://t.cn/RnndPC3)：本文是一片是一篇介绍如何使用无头 chrome 自动化爬取 web 内容的指南。
 
 ## 工具
 

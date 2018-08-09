@@ -1,4 +1,3 @@
-
 > # Daily-Front-End-News
 
 ## 前端
@@ -11,7 +10,7 @@
 
 ## 阅读
 
-- [Travis-CI 的离奇错误清空生产数据库](https://blog.travis-ci.com/2018-04-03-incident-post-mortem)：Travis-CI 公布了3月13日生产数据库出错的调查报告。一个开发者执行了生产环境的检查以后，在同一个 Session 里面运行测试。由于数据库地址是环境变量给出的，这时 Session 里面的数据库地址的环境变量指向生产环境，导致测试脚本清空了生产环境的数据库；
+- [Travis-CI 的离奇错误清空生产数据库](https://blog.travis-ci.com/2018-04-03-incident-post-mortem)：Travis-CI 公布了 3 月 13 日生产数据库出错的调查报告。一个开发者执行了生产环境的检查以后，在同一个 Session 里面运行测试。由于数据库地址是环境变量给出的，这时 Session 里面的数据库地址的环境变量指向生产环境，导致测试脚本清空了生产环境的数据库；
 
 ## 开源项目
 

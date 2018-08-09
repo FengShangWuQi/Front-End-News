@@ -1,5 +1,4 @@
-
-> # Daily-Front-End-News 
+> # Daily-Front-End-News
 
 ## JavaScript
 
@@ -7,7 +6,7 @@
 
 ## CSS
 
-- [Houdini 和 CSS Paint API 解析](https://www.w3cplus.com/css/say-hello-to-houdini-and-the-css-paint-api.html)：Houdini 是 W3C 工作组为开发人员提供CSS 扩展功能的一套 CSS API，CSS Paint API (使用 CSS 属性来绘制图像)就是其中之一。文章对 Houdini 和 CSS Paint API 进行了详细解析。
+- [Houdini 和 CSS Paint API 解析](https://www.w3cplus.com/css/say-hello-to-houdini-and-the-css-paint-api.html)：Houdini 是 W3C 工作组为开发人员提供 CSS 扩展功能的一套 CSS API，CSS Paint API (使用 CSS 属性来绘制图像)就是其中之一。文章对 Houdini 和 CSS Paint API 进行了详细解析。
 
 ## React
 

@@ -1,4 +1,3 @@
-
 > # Daily-Front-End-News
 
 ## 前端
@@ -7,11 +6,11 @@
 
 ## React
 
-- [React 同构应用 PWA 升级指南](https://lindongzhou.com/article/react-isomorphic-app-pwa-upgrade)：全文记录了 React 同构应用在使用 PWA 时遇到的问题。PWA 不是单纯的某项技术，而是一堆技术的集合，比如：Service Worker，manifest 添加到桌面，push、notification api 等。而就在前不久时间，IOS 11.3 刚刚支持 Service worker 和类似 manifest 添加到桌面的特性，所以这次 PWA 改造主要还是实现这两部分功能，至于其它的特性，等iphone支持了再升级吧；
+- [React 同构应用 PWA 升级指南](https://lindongzhou.com/article/react-isomorphic-app-pwa-upgrade)：全文记录了 React 同构应用在使用 PWA 时遇到的问题。PWA 不是单纯的某项技术，而是一堆技术的集合，比如：Service Worker，manifest 添加到桌面，push、notification api 等。而就在前不久时间，IOS 11.3 刚刚支持 Service worker 和类似 manifest 添加到桌面的特性，所以这次 PWA 改造主要还是实现这两部分功能，至于其它的特性，等 iphone 支持了再升级吧；
 
 ## 后端
 
-- [群消息已读回执（这个diao），究竟是推还是拉](http://suo.im/4C8NbX)：每当发出一条微信消息，都希望对方尽快看到，并尽快回复，但始终不知道对方是否阅读。群消息的流程如何，接收方如何确保收到群消息，发送方如何收已读回执，究竟是拉取，还是推送；
+- [群消息已读回执（这个 diao），究竟是推还是拉](http://suo.im/4C8NbX)：每当发出一条微信消息，都希望对方尽快看到，并尽快回复，但始终不知道对方是否阅读。群消息的流程如何，接收方如何确保收到群消息，发送方如何收已读回执，究竟是拉取，还是推送；
 
 ## 阅读
 

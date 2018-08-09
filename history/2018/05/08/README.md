@@ -1,4 +1,3 @@
-
 > # Daily-Front-End-News
 
 ## 前端
@@ -7,7 +6,7 @@
 
 ## 阅读
 
-- [专访彭星老师：探究前后端分离存在的意义](https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651007303&idx=4&sn=6fc512c1f363f9af6aa97c7f29dffc0a&chksm=bdbed1148ac9580234786cede2f227aa4ac234b86f8e1e0e992031890e2006f213c5c23ce6b1&mpshare=1&scene=1&srcid=0612TNWc1rO33Qwu97CQfUC9&pass_ticket=XIzVOixXiICwLYd5qW84%2FsUcSNqYpSPN7jpjE5Vs3%2BWdg1OE38xNRhy9KaJAGDeb#rd)：对于目前的 web业务场景来说，前后端分离已经变得越来越流行了，究其原因，正是这几年随着互联网业务呈几何式增长，对开发人员的要求越来越高，纯浏览器端的响应式已经不能满足企业对用户体验的高要求，往往工程师们不得不针对不同的终端来定制新的版本，为了提高开发效率，前后端分离的需求越来越被重视；
+- [专访彭星老师：探究前后端分离存在的意义](https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651007303&idx=4&sn=6fc512c1f363f9af6aa97c7f29dffc0a&chksm=bdbed1148ac9580234786cede2f227aa4ac234b86f8e1e0e992031890e2006f213c5c23ce6b1&mpshare=1&scene=1&srcid=0612TNWc1rO33Qwu97CQfUC9&pass_ticket=XIzVOixXiICwLYd5qW84%2FsUcSNqYpSPN7jpjE5Vs3%2BWdg1OE38xNRhy9KaJAGDeb#rd)：对于目前的 web 业务场景来说，前后端分离已经变得越来越流行了，究其原因，正是这几年随着互联网业务呈几何式增长，对开发人员的要求越来越高，纯浏览器端的响应式已经不能满足企业对用户体验的高要求，往往工程师们不得不针对不同的终端来定制新的版本，为了提高开发效率，前后端分离的需求越来越被重视；
 
 ## 安全
 

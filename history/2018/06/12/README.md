@@ -1,9 +1,8 @@
-
 > # Daily-Front-End-News
 
 ## 前端
 
-- [Node 之父 Ryan Dahl 演讲 PPT 中文版](https://zhuanlan.zhihu.com/p/37637923)：本文是 Node 之父 Ryan Dahl 在 2018 JS Conf Berlin上的演讲《Design Mistakes in Node》的完整中文翻译，如果你对 Node 和 Deno 项目感兴趣，那我强烈建议你阅读完本文章；
+- [Node 之父 Ryan Dahl 演讲 PPT 中文版](https://zhuanlan.zhihu.com/p/37637923)：本文是 Node 之父 Ryan Dahl 在 2018 JS Conf Berlin 上的演讲《Design Mistakes in Node》的完整中文翻译，如果你对 Node 和 Deno 项目感兴趣，那我强烈建议你阅读完本文章；
 
 ## 可视化
 

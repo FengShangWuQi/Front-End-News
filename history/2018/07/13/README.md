@@ -1,18 +1,17 @@
-
 > # Daily-Front-End-News
 
 [![cover][img]][link]
 
-[img]: https://github.com/fengshangwuqi/Daily-Front-End-News/blob/master/history/2018/07/13/cheat.jpg  "chubin/cheat.sh"
+[img]: https://github.com/fengshangwuqi/Daily-Front-End-News/blob/master/history/2018/07/13/cheat.jpg "chubin/cheat.sh"
 [link]: https://github.com/chubin/cheat.sh
 
 ## 前端
 
-- [洞察 video 超能力系列——玩转 mp4](https://techblog.toutiao.com/2018/07/09/untitled-51/)：只要在 HTML5 中使用过视频播放的同学对 video 标签一定不会陌生，不过很多同学只使用了 video 的基础功能，实际上 video 拥有强大潜能的，只要姿势正确就能让其拥有超能力。不妨从下面几个场景来逐渐了解下video 未曾被发掘的神秘空间： * 清晰度无缝切换 * 节省视频流量；
+- [洞察 video 超能力系列——玩转 mp4](https://techblog.toutiao.com/2018/07/09/untitled-51/)：只要在 HTML5 中使用过视频播放的同学对 video 标签一定不会陌生，不过很多同学只使用了 video 的基础功能，实际上 video 拥有强大潜能的，只要姿势正确就能让其拥有超能力。不妨从下面几个场景来逐渐了解下 video 未曾被发掘的神秘空间： _ 清晰度无缝切换 _ 节省视频流量；
 
 ## Git
 
-- [增加 Git Commit Graph III](https://blogs.msdn.microsoft.com/devops/2018/07/09/supercharging-the-git-commit-graph-iii-generations/)：微软向 Git2.18 提交了一个新功能，会自动在Git 仓库生成一个有向图数据文件，这个文件保存每个提交之间的线性关系。这会大大加快大型库的合并操作的速度。另外，以后生成节点关系图，只要根据这个文件即可，不用遍历整个库；
+- [增加 Git Commit Graph III](https://blogs.msdn.microsoft.com/devops/2018/07/09/supercharging-the-git-commit-graph-iii-generations/)：微软向 Git2.18 提交了一个新功能，会自动在 Git 仓库生成一个有向图数据文件，这个文件保存每个提交之间的线性关系。这会大大加快大型库的合并操作的速度。另外，以后生成节点关系图，只要根据这个文件即可，不用遍历整个库；
 
 ## 开源项目
 

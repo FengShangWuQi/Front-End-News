@@ -1,9 +1,9 @@
-
 > # Daily-Front-End-News
 
 ## JavaScript
 
 - [为什么下面两行代码，一行报错，另一行不报错](https://twitter.com/ruanyf/status/980976233348440064)：
+
 ```js
 let f1 = () => { a: 1 }; // 不报错
 let f2 = () => { id, name: 'temp' } // 报错

@@ -1,7 +1,6 @@
+> # Daily-Front-End-News
 
-> # Daily-Front-End-News 
-
-## Node 
+## Node
 
 - [所见即所得 - 基于 Node.js 的页面数据实践](http://t.cn/Rn0CJgH)：数据抓取是企业信息化的根基和第一步，只有利用先进的技术作好了信息抓取工作，才能为信息化带来最大的价值。
 

@@ -1,9 +1,8 @@
-
 > # Daily-Front-End-News
 
 ## 前端
 
-- [杭州第一届 GraphQLParty — GraphQL与领域驱动带来的协同价值](http://www.itdks.com/eventlist/detail/2260)：本次宋小菜 & CODING 联合举办的杭州第一届 GraphQL Party，将从更深层的角度对 GraphQL 进行高密度的探讨，聚焦在协同/效率/领域驱动/前后端职能变化这几个团队效率、职能合作和技术选型，帮助不同领域的行业开发者们了解更多 GraphQL 以及领域驱动设计相关，前后端兼顾的工程实践课题；
+- [杭州第一届 GraphQLParty — GraphQL 与领域驱动带来的协同价值](http://www.itdks.com/eventlist/detail/2260)：本次宋小菜 & CODING 联合举办的杭州第一届 GraphQL Party，将从更深层的角度对 GraphQL 进行高密度的探讨，聚焦在协同/效率/领域驱动/前后端职能变化这几个团队效率、职能合作和技术选型，帮助不同领域的行业开发者们了解更多 GraphQL 以及领域驱动设计相关，前后端兼顾的工程实践课题；
 
 ## 阅读
 

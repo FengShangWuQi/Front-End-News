@@ -1,9 +1,8 @@
-
 > # Daily-Front-End-News
 
 ## 前端
 
-- [Vue 技术内幕](http://hcysun.me/vue-design/)：逐行级别的 Vue 源码分析。特点：超级详细 - 逐行级别的分析；实时更新 - 与dev分支同步；深度分析 - 讲解issue；
+- [Vue 技术内幕](http://hcysun.me/vue-design/)：逐行级别的 Vue 源码分析。特点：超级详细 - 逐行级别的分析；实时更新 - 与 dev 分支同步；深度分析 - 讲解 issue；
 
 ## 区块链
 

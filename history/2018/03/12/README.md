@@ -1,4 +1,3 @@
-
 > # Daily-Front-End-News
 
 ## 前端
@@ -11,8 +10,8 @@
 
 ## 可视化
 
-- [Mapbox AR 平台正式上线，为更多开发者提供一种改变和创造的可能性](https://blog.hubspot.com/marketing/data-visualization-resources)：Mapbox筹划已久的AR平台终于上线了，在兼并了数个开发团队后，憋出了个大招。
+- [Mapbox AR 平台正式上线，为更多开发者提供一种改变和创造的可能性](https://blog.hubspot.com/marketing/data-visualization-resources)：Mapbox 筹划已久的 AR 平台终于上线了，在兼并了数个开发团队后，憋出了个大招。
 
-## 开源项目 
+## 开源项目
 
 - [内容感知图像压缩/拓展库 caire](https://github.com/esimov/caire)：Caire 是基于论文《Seam Carving for Content-Aware Image Resizing》（图像伸缩变换算法）实现的一个内容感知图像 (尺寸) 压缩/扩展库。

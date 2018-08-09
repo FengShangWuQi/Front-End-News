@@ -1,9 +1,8 @@
-
 > # Daily-Front-End-News
 
 ## 前端
 
-- [体验友好的数值输入 "InputMode"](https://css-tricks.com/finger-friendly-numerical-inputs-with-inputmode/)：数值输入框都需要一个数值输入的 UI 界面。在大多数小屏幕手机上，只要把 input的 type 设置为 number，就可以轻松唤出数字键盘，处理数字输入。可是在稍大点的手机屏幕上，在输入框最右侧会像 PC 端一样出现一个默认的小上下箭头，当手指去点这个箭头，体验会非常不好，这不是我们希望的结果。当我们输入的内容不仅仅是数字，还包括加号、减号时，input='number' 并不能很好地工作。能解决这一问题的 InputMode 已经被 WHATWG 提倡了很多年，现在 Chrome 66 终于率先支持这一模式；
+- [体验友好的数值输入 "InputMode"](https://css-tricks.com/finger-friendly-numerical-inputs-with-inputmode/)：数值输入框都需要一个数值输入的 UI 界面。在大多数小屏幕手机上，只要把 input 的 type 设置为 number，就可以轻松唤出数字键盘，处理数字输入。可是在稍大点的手机屏幕上，在输入框最右侧会像 PC 端一样出现一个默认的小上下箭头，当手指去点这个箭头，体验会非常不好，这不是我们希望的结果。当我们输入的内容不仅仅是数字，还包括加号、减号时，input='number' 并不能很好地工作。能解决这一问题的 InputMode 已经被 WHATWG 提倡了很多年，现在 Chrome 66 终于率先支持这一模式；
 
 ## 状态管理
 
@@ -11,7 +10,7 @@
 
 ## 区块链
 
-- [使用 Ehters.js 进行以太坊代币相关操作](http://suo.im/4Advpp)：本文主要详细介绍了怎么使用 Ethers.js 来进行以太坊代币的操作，这里的 token 暂时只基于　ERC20　标准；
+- [使用 Ehters.js 进行以太坊代币相关操作](http://suo.im/4Advpp)：本文主要详细介绍了怎么使用 Ethers.js 来进行以太坊代币的操作，这里的 token 暂时只基于　 ERC20 　标准；
 
 ## Git
 

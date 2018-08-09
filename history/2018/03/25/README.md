@@ -1,5 +1,4 @@
-
-> # Daily-Front-End-News 
+> # Daily-Front-End-News
 
 ## CSS
 
@@ -7,7 +6,7 @@
 
 ## 算法
 
-- [小姐姐带你一起学：如何用 Python 实现 7 种机器学习算法](http://t.cn/Rnr4Z3M)：Python 被称为是最接近 AI 的语言，最近一位名叫 Anna-Lena Popkes 的小姐姐在 GitHub 上分享了自己如何使用 Python（3.6及以上版本）实现 7 种机器学习算法的笔记，并附有完整代码；
+- [小姐姐带你一起学：如何用 Python 实现 7 种机器学习算法](http://t.cn/Rnr4Z3M)：Python 被称为是最接近 AI 的语言，最近一位名叫 Anna-Lena Popkes 的小姐姐在 GitHub 上分享了自己如何使用 Python（3.6 及以上版本）实现 7 种机器学习算法的笔记，并附有完整代码；
 
 ## 可视化
 

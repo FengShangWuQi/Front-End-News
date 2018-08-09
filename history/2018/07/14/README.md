@@ -1,4 +1,3 @@
-
 > # Daily-Front-End-News
 
 [![cover][img]][link]
@@ -20,4 +19,4 @@
 
 ## 新闻
 
-- [ESLint 组件库的 npm 帐号被盗，并被注入恶意代码](https://www.oschina.net/news/97995/eslint-malicious-packages)：ESLint 的两个组件库的 npm 账户被窃，注入恶意代码，会偷窥用户的 .npmrc 文件，里面包含用户发布到 npm 的token。为了这件事，npm把所有 token 都作废了；
+- [ESLint 组件库的 npm 帐号被盗，并被注入恶意代码](https://www.oschina.net/news/97995/eslint-malicious-packages)：ESLint 的两个组件库的 npm 账户被窃，注入恶意代码，会偷窥用户的 .npmrc 文件，里面包含用户发布到 npm 的 token。为了这件事，npm 把所有 token 都作废了；

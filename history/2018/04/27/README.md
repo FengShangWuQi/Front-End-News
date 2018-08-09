@@ -1,4 +1,3 @@
-
 > # Daily-Front-End-News
 
 ## webpack
@@ -7,7 +6,7 @@
 
 ## 区块链
 
-- [以太坊工具包 Ethers.js 使用介绍](http://suo.im/4PkaqI)：以太坊提供了两种形式的 API，一种是 JSON RPC，另外一种是 Javascript API —— 通过 Web3 这个工具包进行 API 调用，Web3 功能强大但缺点就是账号相关的 API 比较少，而且它底层用到了一些 Node 原生库的依赖，导致其在 React Native　中使用会有一些问题，因为 Node 和 RN 是 2 个不同的环境，所以本文作者为大家介绍了功能强大的 JS 以太坊工具库——Ethers.js；
+- [以太坊工具包 Ethers.js 使用介绍](http://suo.im/4PkaqI)：以太坊提供了两种形式的 API，一种是 JSON RPC，另外一种是 Javascript API —— 通过 Web3 这个工具包进行 API 调用，Web3 功能强大但缺点就是账号相关的 API 比较少，而且它底层用到了一些 Node 原生库的依赖，导致其在 React Native 　中使用会有一些问题，因为 Node 和 RN 是 2 个不同的环境，所以本文作者为大家介绍了功能强大的 JS 以太坊工具库——Ethers.js；
 
 ## 浏览器
 

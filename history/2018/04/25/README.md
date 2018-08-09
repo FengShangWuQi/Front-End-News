@@ -1,9 +1,8 @@
-
 > # Daily-Front-End-News
 
 ## 区块链
 
-- [如何使用 Etherscan 的 API](https://zhaozhiming.github.io/blog/2018/04/20/how-to-use-etherscan-api/)：虽然以太坊提供了 Web3 和 Json Rpc 这 2 种 API，geth 也额外提供了一些 API，但是对于开发以太坊应用来说还是显得有些不足，比如说获取交易记录的时间，需要先通过交易的 hash 找到该交易对应的区块 id，然后才能找到对应的时间，查询起来相当不方便。好在Etherscan对外提供了一些公共的 API，给我们提供了额外的能力来处理更多的业务场景；
+- [如何使用 Etherscan 的 API](https://zhaozhiming.github.io/blog/2018/04/20/how-to-use-etherscan-api/)：虽然以太坊提供了 Web3 和 Json Rpc 这 2 种 API，geth 也额外提供了一些 API，但是对于开发以太坊应用来说还是显得有些不足，比如说获取交易记录的时间，需要先通过交易的 hash 找到该交易对应的区块 id，然后才能找到对应的时间，查询起来相当不方便。好在 Etherscan 对外提供了一些公共的 API，给我们提供了额外的能力来处理更多的业务场景；
 
 ## WebAssembly
 

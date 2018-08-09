@@ -1,4 +1,3 @@
-
 > # Daily-Front-End-News
 
 [![Gatsby](https://github.com/fengshangwuqi/Daily-Front-End-News/blob/master/history/2018/06/25/gatsby.jpg)](https://www.gatsbyjs.org/blog/2018-06-16-announcing-gatsby-v2-beta-launch/)
@@ -12,7 +11,7 @@ new Date('2018-01-01')
 <- Sun Dec 31 2017 18:00:00 GMT-0600 (Central Standard Time)
 
 new Date('2018/01/01')
-<- Mon Jan 01 2018 00:00:00 GMT-0600 (Central Standard Time) 
+<- Mon Jan 01 2018 00:00:00 GMT-0600 (Central Standard Time)
 ```
 
 ## Gatsby

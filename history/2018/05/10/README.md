@@ -1,4 +1,3 @@
-
 > # Daily-Front-End-News
 
 ## 前端
@@ -11,7 +10,7 @@
 
 ## 阅读
 
-- [高效阅读 Github 源代码](https://zhuanlan.zhihu.com/p/35778751)：文章介绍三种方法帮助你更有效的阅读 Github 源代码。用 Chrome 插件 Octotree，左侧会出现树形结构，方便你浏览源代码；用 Github Desktop 桌面应用，方便把代码 clone 到本地，然后进行各种 git 操作；直接把 Chrome 变成一个在线 IDE，帮你把npm 包都准备好，直接可以运行；
+- [高效阅读 Github 源代码](https://zhuanlan.zhihu.com/p/35778751)：文章介绍三种方法帮助你更有效的阅读 Github 源代码。用 Chrome 插件 Octotree，左侧会出现树形结构，方便你浏览源代码；用 Github Desktop 桌面应用，方便把代码 clone 到本地，然后进行各种 git 操作；直接把 Chrome 变成一个在线 IDE，帮你把 npm 包都准备好，直接可以运行；
 
 ## 开源项目
 

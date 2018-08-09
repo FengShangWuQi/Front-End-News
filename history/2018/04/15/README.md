@@ -1,4 +1,3 @@
-
 > # Daily-Front-End-News
 
 ## 前端
@@ -7,7 +6,7 @@
 
 ## React
 
-- [使用 createRef（）在React 16.3 中引用子组件中的节点](http://t.cn/RmIhMgL)：本课程我们将使用新的 createRef（）方法来检索子组件中的节点并将其传回给它的父组件。我们还将展示如何使用createRef（）在功能组件中使用 ref；
+- [使用 createRef（）在 React 16.3 中引用子组件中的节点](http://t.cn/RmIhMgL)：本课程我们将使用新的 createRef（）方法来检索子组件中的节点并将其传回给它的父组件。我们还将展示如何使用 createRef（）在功能组件中使用 ref；
 
 ## 安全
 

@@ -1,4 +1,3 @@
-
 > # Daily-Front-End-News
 
 [![cover][img]][link]
@@ -20,4 +19,4 @@
 
 ## 其他
 
-- [网站访问统计服务](https://www.gethighlights.co/blog/choose-right-analytics-platform/)：这篇文章介绍了 Google Analytics 等8个网站统计工具；
+- [网站访问统计服务](https://www.gethighlights.co/blog/choose-right-analytics-platform/)：这篇文章介绍了 Google Analytics 等 8 个网站统计工具；

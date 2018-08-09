@@ -1,9 +1,8 @@
-
 > # Daily-Front-End-News
 
 ## 前端
 
-- [React 新的生命周期方法（v16.3版本）的示意图](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)：Dan Abramov 之前推送了一条 React 新生命周期方法图，这是 wojtekmaj 提供更为方便的交互式版本；
+- [React 新的生命周期方法（v16.3 版本）的示意图](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)：Dan Abramov 之前推送了一条 React 新生命周期方法图，这是 wojtekmaj 提供更为方便的交互式版本；
 
 ## CSS
 

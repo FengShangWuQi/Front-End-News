@@ -1,5 +1,4 @@
-
-> # Daily-Front-End-News 
+> # Daily-Front-End-News
 
 ## JavaScript
 

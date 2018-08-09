@@ -1,4 +1,3 @@
-
 > # Daily-Front-End-News
 
 ## 前端
@@ -11,7 +10,7 @@
 
 ## 开源项目
 
-- [material-ui](https://github.com/mui-org/material-ui/releases/tag/v1.0.0)：大家知道，谷歌的材质化组件（Material Design）是 Angular 专用的。社区维护的 React 移植版Material-UI，今天发布 1.0 版，已经完全可用了。以后，React 项目照样可以有官方安卓 UI 的那种材质化效果；
+- [material-ui](https://github.com/mui-org/material-ui/releases/tag/v1.0.0)：大家知道，谷歌的材质化组件（Material Design）是 Angular 专用的。社区维护的 React 移植版 Material-UI，今天发布 1.0 版，已经完全可用了。以后，React 项目照样可以有官方安卓 UI 的那种材质化效果；
 
 ## 测试
 

@@ -1,4 +1,3 @@
-
 > # Daily-Front-End-News
 
 ## 后端
@@ -11,7 +10,7 @@
 
 ## 测试
 
-- [Jest 23发布 | 更快的JS测试](https://facebook.github.io/jest/blog/2018/05/29/jest-23-blazing-fast-delightful-testing.html)：Jest 是一款流行的 JavaScript 测试工具。当 Webpack 从 Mocha 切换到 Jest 23 测试版以后，测试套件的速度提高了 6 倍；
+- [Jest 23 发布 | 更快的 JS 测试](https://facebook.github.io/jest/blog/2018/05/29/jest-23-blazing-fast-delightful-testing.html)：Jest 是一款流行的 JavaScript 测试工具。当 Webpack 从 Mocha 切换到 Jest 23 测试版以后，测试套件的速度提高了 6 倍；
 
 ## 阅读
 

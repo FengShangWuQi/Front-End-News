@@ -1,4 +1,3 @@
-
 > # Daily-Front-End-News
 
 [![flutter](https://github.com/fengshangwuqi/Daily-Front-End-News/blob/master/history/2018/06/23/flutter.jpg)](https://developers.googleblog.cn/2018/06/flutter-release-preview-1.html)
@@ -13,7 +12,7 @@
 
 ## 开源项目
 
-- [usql：SQL数据库的通用命令行界面](https://github.com/xo/usql)：命令行如何执行 SQL 语句？每个数据库都有自己的方式，彼此不同。现在出现了一个工具 usql，提供统一的方式，在命令行下操作不同的数据库；
+- [usql：SQL 数据库的通用命令行界面](https://github.com/xo/usql)：命令行如何执行 SQL 语句？每个数据库都有自己的方式，彼此不同。现在出现了一个工具 usql，提供统一的方式，在命令行下操作不同的数据库；
 
 ## 阅读
 

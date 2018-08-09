@@ -1,4 +1,3 @@
-
 > # Daily-Front-End-News
 
 ## React
@@ -7,7 +6,7 @@
 
 # TypeScript
 
-- [TypeScript 2.8 下的终极 React 组件模式](https://juejin.im/post/5b07caf16fb9a07aa83f2977)：有状态组件、无状态组件、默认属性、Render回调、组件注入、泛型组件、高阶组件、受控组件，你不想了解下么；
+- [TypeScript 2.8 下的终极 React 组件模式](https://juejin.im/post/5b07caf16fb9a07aa83f2977)：有状态组件、无状态组件、默认属性、Render 回调、组件注入、泛型组件、高阶组件、受控组件，你不想了解下么；
 
 ## 后端
 

@@ -1,4 +1,3 @@
-
 > # Daily-Front-End-News
 
 ## 前端
@@ -11,8 +10,8 @@
 
 ## JavaScript
 
-- [JavaScript 即将推出的三种新功能](https://medium.freecodecamp.org/here-are-three-upcoming-changes-to-javascript-that-youll-love-387bce1bfb0b)：本文介绍了JavaScript 即将发布的新功能，作者用实例展现了 JavaScript 在可选链式调用（Optional Chaining）、Nullish coalescing 、Pipeline operator 上的改变；
+- [JavaScript 即将推出的三种新功能](https://medium.freecodecamp.org/here-are-three-upcoming-changes-to-javascript-that-youll-love-387bce1bfb0b)：本文介绍了 JavaScript 即将发布的新功能，作者用实例展现了 JavaScript 在可选链式调用（Optional Chaining）、Nullish coalescing 、Pipeline operator 上的改变；
 
 ## React
 
-- [React 优化： 虚拟 DOM  详解](https://evilmartians.com/chronicles/optimizing-react-virtual-dom-explained)：本文作者主要揭开 JSX 的神秘面纱，向大家展示 React 如何渲染，以及如何避免一些常见错误；
+- [React 优化： 虚拟 DOM 详解](https://evilmartians.com/chronicles/optimizing-react-virtual-dom-explained)：本文作者主要揭开 JSX 的神秘面纱，向大家展示 React 如何渲染，以及如何避免一些常见错误；

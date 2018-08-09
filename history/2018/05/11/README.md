@@ -1,4 +1,3 @@
-
 > # Daily-Front-End-News
 
 ## 前端
@@ -11,7 +10,7 @@
 
 ##　区块链
 
-- [使用 Expo 打包 iOS 企业版 APP](http://suo.im/5bNZ4d)：Expo 为 React Native 开发提供了不少便利性，其中有个最方便的功能就是 APP 打包，Expo 让开发者无需使用 Xcode 和 Android Studio 就可以完成 APP 的打包工作，比原来的打包方式效率提高了很多，本文详细讲解了如何使用Expo 来打包 APP；
+- [使用 Expo 打包 iOS 企业版 APP](http://suo.im/5bNZ4d)：Expo 为 React Native 开发提供了不少便利性，其中有个最方便的功能就是 APP 打包，Expo 让开发者无需使用 Xcode 和 Android Studio 就可以完成 APP 的打包工作，比原来的打包方式效率提高了很多，本文详细讲解了如何使用 Expo 来打包 APP；
 
 ## 工具
 

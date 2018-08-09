@@ -1,9 +1,8 @@
-
 > # Daily-Front-End-News
 
 ## 前端
 
-- [用 vue 开发一个实时报表系统](https://www.codementor.io/iamlese/build-a-realtime-chart-with-vue-js-j7h1yvcbk)：本文向我们展示了一个实时报表系统的搭建过程，它的交互式仪表板有一个折线图， 显示每天的收入和开支，能够添加新的开支和收入，并能看到图表的实时更新。技术栈采用 Node.js + Express做后端服务， Vue + vue-chartjs做前端框架；
+- [用 vue 开发一个实时报表系统](https://www.codementor.io/iamlese/build-a-realtime-chart-with-vue-js-j7h1yvcbk)：本文向我们展示了一个实时报表系统的搭建过程，它的交互式仪表板有一个折线图， 显示每天的收入和开支，能够添加新的开支和收入，并能看到图表的实时更新。技术栈采用 Node.js + Express 做后端服务， Vue + vue-chartjs 做前端框架；
 
 ## 大数据
 

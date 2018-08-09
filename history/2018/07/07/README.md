@@ -1,4 +1,3 @@
-
 > # Daily-Front-End-News
 
 [![cover][img]][link]
@@ -8,7 +7,7 @@
 
 ## 前端
 
-- [ECMAScript 2018 语言规范正式发布](https://www.ecma-international.org/publications/standards/Ecma-262.htm)：6 月底，ES2018 的官方规范（第九版JS）发布了 HTML 和 PDF 两种版本。今年 1 月，ECMAScript 2018 曾确定了两个新特性：取消模板字面量的限制，以支持语言的嵌入，包括特定领域的语言(DSLs)；为正则表达式添加s(dotAll)标志，以提供一致的行为。由于此次的更新涉及的新特性比较多，大家可以自行下载文件阅读；
+- [ECMAScript 2018 语言规范正式发布](https://www.ecma-international.org/publications/standards/Ecma-262.htm)：6 月底，ES2018 的官方规范（第九版 JS）发布了 HTML 和 PDF 两种版本。今年 1 月，ECMAScript 2018 曾确定了两个新特性：取消模板字面量的限制，以支持语言的嵌入，包括特定领域的语言(DSLs)；为正则表达式添加 s(dotAll)标志，以提供一致的行为。由于此次的更新涉及的新特性比较多，大家可以自行下载文件阅读；
 
 ## CSS
 

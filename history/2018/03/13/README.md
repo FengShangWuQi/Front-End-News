@@ -1,4 +1,3 @@
-
 > # Daily-Front-End-News
 
 ## 浏览器
@@ -7,7 +6,7 @@
 
 ## Node
 
-- [Pandora.js 专业的 Node.js 应用监控管理器，阿里开源](https://github.com/midwayjs/pandora/wiki/Pandora.js---%E4%B8%93%E4%B8%9A%E7%9A%84-Node.js-%E5%BA%94%E7%94%A8%E7%9B%91%E6%8E%A7%E7%AE%A1%E7%90%86%E5%99%A8%EF%BC%8C%E9%98%BF%E9%87%8C%E5%BC%80%E6%BA%90)：Pandora.js是阿里巴巴开源的一个Node.js 应用监控管理器，可以让您对自己的 Node.js 应用了若指掌，让应用可管理、可度量、可追踪。这是该项目 git 仓库上的一篇入门指导。
+- [Pandora.js 专业的 Node.js 应用监控管理器，阿里开源](https://github.com/midwayjs/pandora/wiki/Pandora.js---%E4%B8%93%E4%B8%9A%E7%9A%84-Node.js-%E5%BA%94%E7%94%A8%E7%9B%91%E6%8E%A7%E7%AE%A1%E7%90%86%E5%99%A8%EF%BC%8C%E9%98%BF%E9%87%8C%E5%BC%80%E6%BA%90)：Pandora.js 是阿里巴巴开源的一个 Node.js 应用监控管理器，可以让您对自己的 Node.js 应用了若指掌，让应用可管理、可度量、可追踪。这是该项目 git 仓库上的一篇入门指导。
 
 ## 可视化
 

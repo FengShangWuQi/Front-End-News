@@ -1,4 +1,3 @@
-
 > # Daily-Front-End-News
 
 ## 前端
@@ -7,7 +6,7 @@
 
 ## CSS
 
-- [马里奥卡丁车:纯CSS打造的小游戏](https://codeburst.io/mario-kart-css-7572bd2ce608)：Stephen Cook 解释了他如何使用纯 CSS 创建交互式马里奥卡丁车游戏。这个项目中，作者没有使用一行 JS 代码和一张图片，100% 纯 CSS 打造，其中 HTML 代码也仅有 13 行；
+- [马里奥卡丁车:纯 CSS 打造的小游戏](https://codeburst.io/mario-kart-css-7572bd2ce608)：Stephen Cook 解释了他如何使用纯 CSS 创建交互式马里奥卡丁车游戏。这个项目中，作者没有使用一行 JS 代码和一张图片，100% 纯 CSS 打造，其中 HTML 代码也仅有 13 行；
 
 ## 阅读
 

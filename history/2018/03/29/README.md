@@ -1,5 +1,4 @@
-
-> # Daily-Front-End-News 
+> # Daily-Front-End-News
 
 ## React
 
@@ -11,7 +10,7 @@
 
 ## 阅读
 
-- [朝闻天下技术事](http://t.cn/Rndf9gL)：Docker 创始人兼 CTO 宣布离职；特斯拉被爆处于破产边缘；iOS 更新，支持京沪地铁卡；谷歌安卓侵权案面临 88 亿美元赔款丨Q新闻；
+- [朝闻天下技术事](http://t.cn/Rndf9gL)：Docker 创始人兼 CTO 宣布离职；特斯拉被爆处于破产边缘；iOS 更新，支持京沪地铁卡；谷歌安卓侵权案面临 88 亿美元赔款丨 Q 新闻；
 
 ## 机器学习
 

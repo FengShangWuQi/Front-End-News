@@ -1,4 +1,3 @@
-
 > # Daily-Front-End-News
 
 ## React
@@ -12,7 +11,7 @@
 ## IT 技术大会
 
 - [第六届 杭州 Node Party 杭电专场开始报名啦](https://cnodejs.org/topic/5b1fde425cd02be6409013fa)：
-杭州NodeParty 是一个面向 Node.js 爱好者的线下技术分享聚会，希望能够构建一个持续的分享学习平台，一起发展 Node.js 技术生态；
+  杭州 NodeParty 是一个面向 Node.js 爱好者的线下技术分享聚会，希望能够构建一个持续的分享学习平台，一起发展 Node.js 技术生态；
 
 ## 开源项目
 

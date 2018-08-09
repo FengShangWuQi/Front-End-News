@@ -1,9 +1,8 @@
-
 > # Daily-Front-End-News
 
 ## JavaScript
 
-- [经验分享 | JavaScript反调试技巧](http://www.freebuf.com/articles/system/163579.html)：这篇文章讨论了如何给代码主动调试增加困难，给那些想要分析你 JavaScript 代码的人增加一定的难度。文中提出的反调试技巧包括检测未知的执行环境、检测调试工具（例如 DevTools ）、代码完整性控制、流完整性控制和反模拟。 
+- [经验分享 | JavaScript 反调试技巧](http://www.freebuf.com/articles/system/163579.html)：这篇文章讨论了如何给代码主动调试增加困难，给那些想要分析你 JavaScript 代码的人增加一定的难度。文中提出的反调试技巧包括检测未知的执行环境、检测调试工具（例如 DevTools ）、代码完整性控制、流完整性控制和反模拟。
 
 ## 可视化
 

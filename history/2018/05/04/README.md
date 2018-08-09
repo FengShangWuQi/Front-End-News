@@ -1,4 +1,3 @@
-
 > # Daily-Front-End-News
 
 ## 前端
@@ -7,7 +6,7 @@
 
 ## Node
 
-- [基于 node.js 平台的脚手架开发经历](http://zhangguoyu.org/2017/12/10/developing-a-cli-on-nodejs/)：针对创建项目时重复性工作，繁琐而且浪费时间、copy过来的模板容易存在无关的代码、项目中有很多需要配置的地方，容易忽略一些配置点，进而埋坑、人工操作永远都有可能犯错，建新项目时，总要花时间去排错等问题，作者开发了一个脚手架工具，可以根据交互动态生成项目结构，自动添加依赖和配置，并移除不需要的文件，本文分享了作者整个开发经历；
+- [基于 node.js 平台的脚手架开发经历](http://zhangguoyu.org/2017/12/10/developing-a-cli-on-nodejs/)：针对创建项目时重复性工作，繁琐而且浪费时间、copy 过来的模板容易存在无关的代码、项目中有很多需要配置的地方，容易忽略一些配置点，进而埋坑、人工操作永远都有可能犯错，建新项目时，总要花时间去排错等问题，作者开发了一个脚手架工具，可以根据交互动态生成项目结构，自动添加依赖和配置，并移除不需要的文件，本文分享了作者整个开发经历；
 
 ## HTTP
 
@@ -15,4 +14,4 @@
 
 ## Webpack
 
-- [Tobias Koppers：我当初为什么写webpack](https://zcfy.cc/article/interview-with-webpack-founder-tobias-koppers)：Tobias Koppers是一位自由软件开发者，家住德国纽伦堡。他因写出webpack这个已有数百万开发者使用的开源软件而名噪一时。他目前专注于JavaScript和开源项目。以下是我对他个人的专访，希望对大家有所启发；
+- [Tobias Koppers：我当初为什么写 webpack](https://zcfy.cc/article/interview-with-webpack-founder-tobias-koppers)：Tobias Koppers 是一位自由软件开发者，家住德国纽伦堡。他因写出 webpack 这个已有数百万开发者使用的开源软件而名噪一时。他目前专注于 JavaScript 和开源项目。以下是我对他个人的专访，希望对大家有所启发；

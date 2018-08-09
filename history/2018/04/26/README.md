@@ -1,4 +1,3 @@
-
 > # Daily-Front-End-News
 
 ## 编译器
@@ -7,7 +6,7 @@
 
 ## 区块链
 
-- [如何在 Rinkeby 网络赚取以太币及代币](https://zhaozhiming.github.io/blog/2018/04/18/how-to-earn-eth-and-token-in-rinkeby/)：在开发以太坊应用时最苦恼的事情莫过于手头账户上没有以太币（以下简称 eth），没有 money 什么事情都干不了，好在以太坊提供了几个测试网络，在测试网络上开发约等同于真实环境的主网络，最重要的是测试网络的 eth不要钱！本文作者详细介绍了在 Rinkeby 测试网络的赚钱大法；
+- [如何在 Rinkeby 网络赚取以太币及代币](https://zhaozhiming.github.io/blog/2018/04/18/how-to-earn-eth-and-token-in-rinkeby/)：在开发以太坊应用时最苦恼的事情莫过于手头账户上没有以太币（以下简称 eth），没有 money 什么事情都干不了，好在以太坊提供了几个测试网络，在测试网络上开发约等同于真实环境的主网络，最重要的是测试网络的 eth 不要钱！本文作者详细介绍了在 Rinkeby 测试网络的赚钱大法；
 
 ## 开源工具
 

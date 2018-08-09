@@ -1,4 +1,3 @@
-
 > # Daily-Front-End-News
 
 ## 前端
@@ -15,4 +14,4 @@
 
 ## IT 技术大会
 
-- [干货十足，福利满满-React专场活动完美谢幕](https://mp.weixin.qq.com/s?__biz=MzU1NzA3MjEzNw==&mid=2247484420&idx=1&sn=4a3109652cd71598d3403ba9d92fa5c4&chksm=fc3a2e62cb4da77466c5cbd5b8ad275bf8c0d0b2b6e4b45bbda606be86af42bb2ee8610270b8&mpshare=1&scene=1&srcid=0409H2UmhHNqdrJB3VTiAPKS&pass_ticket=kzLr%2FYxK5ZHvx59WiDwuzS0mHjgkEFoiJE0mOaqXrU%2Fj2FRjKV1t%2BLkgItPkz7Za#rd)：2018.03.31，由菁蓉国际广场和 FCC 成都社区联合主办、合创新业协办的 React 专场交流活动圆满拉下帷幕，本文是对会议主讲内容的总结以及对活动相关素材的分享；
+- [干货十足，福利满满-React 专场活动完美谢幕](https://mp.weixin.qq.com/s?__biz=MzU1NzA3MjEzNw==&mid=2247484420&idx=1&sn=4a3109652cd71598d3403ba9d92fa5c4&chksm=fc3a2e62cb4da77466c5cbd5b8ad275bf8c0d0b2b6e4b45bbda606be86af42bb2ee8610270b8&mpshare=1&scene=1&srcid=0409H2UmhHNqdrJB3VTiAPKS&pass_ticket=kzLr%2FYxK5ZHvx59WiDwuzS0mHjgkEFoiJE0mOaqXrU%2Fj2FRjKV1t%2BLkgItPkz7Za#rd)：2018.03.31，由菁蓉国际广场和 FCC 成都社区联合主办、合创新业协办的 React 专场交流活动圆满拉下帷幕，本文是对会议主讲内容的总结以及对活动相关素材的分享；

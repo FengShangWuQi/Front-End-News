@@ -1,4 +1,3 @@
-
 > # Daily-Front-End-News
 
 ## 前端
@@ -11,7 +10,7 @@
 
 ## Node
 
-- [Deno 不是下一代 Node.js！](https://zhuanlan.zhihu.com/p/37824107)：见到说 deno 是下一代 node 的，狼叔都会骂一顿，前端之巅的知乎号最近发表了一篇文章《为什么我仍然认为 deno 是下一代node》，狼叔表示完全不认同这个观点；
+- [Deno 不是下一代 Node.js！](https://zhuanlan.zhihu.com/p/37824107)：见到说 deno 是下一代 node 的，狼叔都会骂一顿，前端之巅的知乎号最近发表了一篇文章《为什么我仍然认为 deno 是下一代 node》，狼叔表示完全不认同这个观点；
 
 ## 人工智能
 

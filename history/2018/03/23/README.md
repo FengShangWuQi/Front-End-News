@@ -1,5 +1,4 @@
-
-> # Daily-Front-End-News 
+> # Daily-Front-End-News
 
 ## 前端
 
@@ -7,7 +6,7 @@
 
 ## Node
 
-- [Node.jsStream：你需要知道的一切](http://t.cn/RnuC8Uv)：Node.js流（Stream）以难于使用而闻名，甚至更难理解，那么我有好消息告诉你——这不再是困境，多年来，开发人员在那里创建了大量的软件包，其唯一目的就是简化流的工作，但在本文中，我将重点介绍本机 Node.js 流 API；
+- [Node.jsStream：你需要知道的一切](http://t.cn/RnuC8Uv)：Node.js 流（Stream）以难于使用而闻名，甚至更难理解，那么我有好消息告诉你——这不再是困境，多年来，开发人员在那里创建了大量的软件包，其唯一目的就是简化流的工作，但在本文中，我将重点介绍本机 Node.js 流 API；
 
 ## 工具
 
