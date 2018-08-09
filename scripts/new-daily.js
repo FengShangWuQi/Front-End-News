@@ -1,7 +1,15 @@
 import fs from "fs";
+import Config from "config";
 import chalk from "chalk";
 import paths from "../utils/paths";
 import { getCurrMonthDays, formatDate } from "../utils/date";
+
+const { prefix, owner, repo } = Config.get("url");
+const { branch, folder, file } = Config.get("params");
+const {
+	img: { format },
+	tag,
+} = Config.get("content");
 
 const getLTSDaily = () => {
 	const ltsYear = fs.readdirSync(paths.dailyDir).pop();
@@ -25,30 +33,24 @@ const getNextDaily = () => {
 	return `${year + 1}/01/01`;
 };
 
-const dailyTemplate = dailyPath => `
+const dailyNews = tag
+	.map(
+		t => `## ${t}
 
-> # Daily-Front-End-News
+- []()：；
+`
+	)
+	.join("\n");
+
+const dailyTemplate = dailyPath => `
+> # ${repo}
 
 [![cover][img]][link]
 
-[img]: https://github.com/fengshangwuqi/Daily-Front-End-News/blob/master/history/${dailyPath}/.jpg ""
+[img]: ${prefix}/${owner}/${repo}/blob/${branch}/${folder}/${dailyPath}/.${format} ""
 [link]: 
 
-## 前端
-
-- []()：；
-
-## 后端
-
-- []()：；
-
-## 开源项目
-
-- []()：；
-
-## 新闻
-
-- []()：；
+${dailyNews}
 `;
 
 const newDaily = () => {
@@ -56,7 +58,7 @@ const newDaily = () => {
 	const folderName = `${paths.dailyDir}/${dailyPath}`;
 
 	fs.mkdirSync(folderName);
-	fs.writeFileSync(`${folderName}/README.md`, dailyTemplate(dailyPath));
+	fs.writeFileSync(`${folderName}/${file}`, dailyTemplate(dailyPath));
 
 	console.log();
 	console.log(

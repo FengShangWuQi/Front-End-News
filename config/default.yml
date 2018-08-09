@@ -1,0 +1,13 @@
+url:
+  prefix: "https://github.com"
+  owner: "fengshangwuqi"
+  repo: "Daily-Front-End-News"
+  extensionRepo: "chrome-Daily-Front-End-news"
+params:
+  branch: "master"
+  folder: "history"
+  file: "README.md"
+content:
+  img:
+    format: "jpg"
+  tag: ["前端", "后端", "开源项目", "新闻"]
