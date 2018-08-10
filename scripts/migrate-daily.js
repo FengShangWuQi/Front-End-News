@@ -1,8 +1,11 @@
 import fs from "fs";
 import Config from "config";
-import paths from "../utils/paths";
 import chalk from "chalk";
+import pe from "../utils/prettyError";
+import paths from "../utils/paths";
 import { formatDate } from "../utils/date";
+
+pe.start();
 
 const { prefix, owner, extensionRepo } = Config.get("url");
 const { file } = Config.get("params");
