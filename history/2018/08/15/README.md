@@ -7,7 +7,7 @@
 
 ## 前端
 
-- [我最喜欢给编程新手的免费资源](https://dev.to/aspittel/my-favorite-free-resources-for-new-programmers-bia)：作者分享了自己最喜欢的免费编程资源给新手，所有资源均是自己亲身使用过的并觉得非常友好的；
+- [送给编程新手的我最喜欢的免费资源](https://dev.to/aspittel/my-favorite-free-resources-for-new-programmers-bia)：作者分享了自己最喜欢的免费编程资源给新手，所有资源均是自己亲身使用过的并觉得非常友好的；
 
 ## 后端
 
