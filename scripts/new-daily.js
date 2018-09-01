@@ -1,4 +1,4 @@
-import fs from "fs";
+import fse from "fs-extra";
 import Config from "config";
 import chalk from "chalk";
 import paths from "../utils/paths";
@@ -12,9 +12,9 @@ const {
 } = Config.get("content");
 
 const getLTSDaily = () => {
-	const ltsYear = fs.readdirSync(paths.dailyDir).pop();
-	const ltsMonth = fs.readdirSync(`${paths.dailyDir}/${ltsYear}`).pop();
-	const ltsDay = fs
+	const ltsYear = fse.readdirSync(paths.dailyDir).pop();
+	const ltsMonth = fse.readdirSync(`${paths.dailyDir}/${ltsYear}`).pop();
+	const ltsDay = fse
 		.readdirSync(`${paths.dailyDir}/${ltsYear}/${ltsMonth}`)
 		.pop();
 
@@ -53,12 +53,11 @@ const dailyTemplate = dailyPath => `
 ${dailyNews}
 `;
 
-const newDaily = () => {
+const newDaily = async () => {
 	const dailyPath = getNextDaily();
 	const folderName = `${paths.dailyDir}/${dailyPath}`;
 
-	fs.mkdirSync(folderName);
-	fs.writeFileSync(`${folderName}/${file}`, dailyTemplate(dailyPath));
+	await fse.outputFile(`${folderName}/${file}`, dailyTemplate(dailyPath));
 
 	console.log();
 	console.log(
