@@ -1,37 +1,14 @@
 import fse from "fs-extra";
 import Config from "config";
-import chalk from "chalk";
-import paths from "../utils/paths";
-import { getCurrMonthDays, formatDate } from "../utils/date";
 
-const { prefix, owner, repo } = Config.get("url");
-const { branch, folder, file } = Config.get("params");
-const {
-	img: { format },
-	tag,
-} = Config.get("content");
+import paths from "./utils/paths";
+import { getNextDaily } from "./utils/daily";
+import prettyLog from "./utils/prettyLog";
 
-const getLTSDaily = () => {
-	const ltsYear = fse.readdirSync(paths.dailyDir).pop();
-	const ltsMonth = fse.readdirSync(`${paths.dailyDir}/${ltsYear}`).pop();
-	const ltsDay = fse
-		.readdirSync(`${paths.dailyDir}/${ltsYear}/${ltsMonth}`)
-		.pop();
-
-	return { year: ltsYear - 0, month: ltsMonth - 0, day: ltsDay - 0 };
-};
-
-const getNextDaily = () => {
-	const { year, month, day } = getLTSDaily();
-	const currMonthDays = getCurrMonthDays(year, month);
-
-	if (currMonthDays > day) {
-		return `${year}/${formatDate(month)}/${formatDate(day + 1)}`;
-	} else if (month < 12) {
-		return `${year}/${formatDate(month + 1)}/01`;
-	}
-	return `${year + 1}/01/01`;
-};
+const { params, prefix, owner, name: repoName } = Config.get("repository");
+const { branch, folder, file } = params;
+const { tag } = Config.get("content");
+const { format } = Config.get("cloudinary.image");
 
 const dailyNews = tag
 	.map(
@@ -43,28 +20,21 @@ const dailyNews = tag
 	.join("\n");
 
 const dailyTemplate = dailyPath => `
-> # ${repo}
+> # ${repoName}
 
 [![cover][img]][link]
 
-[img]: ${prefix}/${owner}/${repo}/blob/${branch}/${folder}/${dailyPath}/.${format} ""
+[img]: ${prefix}/${owner}/${repoName}/blob/${branch}/${folder}/${dailyPath}/.${format} ""
 [link]: 
 
 ${dailyNews}
 `;
 
-const newDaily = async () => {
+export default async () => {
 	const dailyPath = getNextDaily();
 	const folderName = `${paths.dailyDir}/${dailyPath}`;
 
 	await fse.outputFile(`${folderName}/${file}`, dailyTemplate(dailyPath));
 
-	console.log();
-	console.log(
-		chalk.cyan.bold.inverse("Happy"),
-		chalk.yellow.bold(dailyPath.replace(/\//g, "-"))
-	);
-	console.log();
+	prettyLog("cyan", "Happy", dailyPath.replace(/\//g, "-"));
 };
-
-newDaily();
