@@ -8,7 +8,7 @@ import prettyLog from "./utils/prettyLog";
 const { params, prefix, owner, name: repoName } = Config.get("repository");
 const { branch, folder, file } = params;
 const { tag } = Config.get("content");
-const { format } = Config.get("cloudinary.image");
+const { format, public_id: name } = Config.get("cloudinary.image");
 
 const dailyNews = tag
 	.map(
@@ -24,7 +24,7 @@ const dailyTemplate = dailyPath => `
 
 [![cover][img]][link]
 
-[img]: ${prefix}/${owner}/${repoName}/blob/${branch}/${folder}/${dailyPath}/.${format} ""
+[img]: ${prefix}/${owner}/${repoName}/blob/${branch}/${folder}/${dailyPath}/${name}.${format} ""
 [link]: 
 
 ${dailyNews}
