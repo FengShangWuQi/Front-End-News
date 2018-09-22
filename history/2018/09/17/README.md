@@ -15,7 +15,7 @@
 
 ## 安全
 
-- [15 行代码让苹果设备崩溃，最新的 iOS 12 也无法幸免](https://mp.weixin.qq.com/s/Fw-DLZXC0OFWMg2wsqBu6A)：国外安全研究人员 Sabri Haddouche 发现了一个只需几行代码就可以让 iPhone 崩溃并重启的方法。Sabri Haddouche 在 GitHub 上发布了一个示例网页，只有 15 行代码，如果在 iPhone 或 iPad 上访问这个页面，就会崩溃并重启。在 macOS 上使用 Safari 打开该页面也会出现浏览器挂起，无法动弹；
+- [15 行代码让苹果设备崩溃，最新的 iOS 12 也无法幸免](https://mp.weixin.qq.com/s/Fw-DLZXC0OFWMg2wsqBu6A)：国外安全研究人员 Sabri Haddouche 发现了一个只需几行代码就可以让 iPhone 崩溃并重启的方法。Sabri Haddouche 在 GitHub 上发布了一个示例网页，只有 15 行代码，如果在 iPhone 或 iPad 上访问这个页面，就会崩溃并重启，在 macOS 上使用 Safari 打开该页面也会出现浏览器挂起，无法动弹；
 
 ## 新闻
 

@@ -7,7 +7,7 @@
 
 ## JavaScript
 
-- [State Of JavaScript 2018](https://stateofjs.com/)：The State Of JavaScript 调查，找出 2018 年最流行的 JavaScript 技术；
+- [State Of JavaScript 2018](https://stateofjs.com/)：The State Of JavaScript 调查，帮助大家了解 2018 年最流行的 JavaScript 技术；
 
 ## React
 
