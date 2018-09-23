@@ -38,7 +38,7 @@ export default () => {
 
 			request(secure_url).pipe(fse.createWriteStream(finalPath));
 
-			prettyLog("green", "Add cover success", finalPath);
+			prettyLog("green", "Add cover success", `${dailyPath}/${name}.${format}`);
 		}
 	);
 };
