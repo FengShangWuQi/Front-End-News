@@ -15,7 +15,7 @@
 
 ## 开源项目
 
-- [Jam3/math-as-code：代码形式的数学符号备忘单](https://github.com/Jam3/math-as-code)：这是一份通过对比数学符号和 JavaScript 代码来帮助开发者更容易了解数学符号的参考。；
+- [Jam3/math-as-code：代码形式的数学符号备忘单](https://github.com/Jam3/math-as-code)：这是一份通过对比数学符号和 JavaScript 代码来帮助开发者更容易了解数学符号的参考；
 
 ## 新闻
 
