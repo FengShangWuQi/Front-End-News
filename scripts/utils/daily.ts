@@ -1,7 +1,7 @@
-import fse from "fs-extra";
-import Config from "config";
+import * as fse from "fs-extra";
+import * as Config from "config";
 
-import paths from "./paths";
+import { paths } from "./paths";
 import { formatDate, getCurrMonthDays } from "./date";
 
 const { currDaily } = Config.get("variable");
@@ -22,7 +22,11 @@ export const getLTSDaily = () => {
 		.readdirSync(`${paths.dailyDir}/${ltsYear}/${ltsMonth}`)
 		.pop();
 
-	return { year: ltsYear - 0, month: ltsMonth - 0, day: ltsDay - 0 };
+	return {
+		year: parseInt(ltsYear as string),
+		month: parseInt(ltsMonth as string),
+		day: parseInt(ltsDay as string),
+	};
 };
 
 export const getNextDaily = () => {

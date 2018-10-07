@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"paths": {
+			"*": ["*", "__types__/*"]
+		},
+		"baseUrl": ".",
+		"outDir": "build/dist",
+		"module": "commonjs",
+		"target": "es2015",
+		"lib": ["es2017", "dom"],
+		"sourceMap": false,
+		"allowJs": false,
+		"moduleResolution": "node",
+		"rootDir": ".",
+		"strict": true,
+		"importHelpers": true,
+		"noImplicitReturns": true,
+		"noUnusedLocals": true,
+		"allowSyntheticDefaultImports": true
+	},
+	"exclude": ["node_modules"]
+}

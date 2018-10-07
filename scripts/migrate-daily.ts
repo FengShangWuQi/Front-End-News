@@ -1,9 +1,9 @@
-import fse from "fs-extra";
-import Config from "config";
+import * as fse from "fs-extra";
+import * as Config from "config";
 
-import paths from "./utils/paths";
+import { paths } from "./utils/paths";
 import { getCurrDaily } from "./utils/daily";
-import prettyLog from "./utils/prettyLog";
+import { prettyLog } from "./utils/prettyLog";
 
 const {
 	prefix,
@@ -12,13 +12,13 @@ const {
 	params: { file },
 } = Config.get("repository");
 
-const migrateData = data => `
+const migrateData = (data: string) => `
 安装 [${extensionName}](${prefix}/${owner}/${extensionName}) 扩展，查看每日资讯。
 
 ${data.replace(/##/g, "###")}
 `;
 
-export default () => {
+( () => {
 	const dailyPath = getCurrDaily();
 	const folderName = paths.folderPath(dailyPath);
 
@@ -26,4 +26,4 @@ export default () => {
 	fse.outputFileSync(paths.filePath, migrateData(data), "utf8");
 
 	prettyLog("green", "Migrating success", `${dailyPath}/${file}`);
-};
+})()

@@ -1,9 +1,9 @@
-import fse from "fs-extra";
-import Config from "config";
+import * as fse from "fs-extra";
+import * as Config from "config";
 
-import paths from "./utils/paths";
+import { paths } from "./utils/paths";
 import { getNextDaily } from "./utils/daily";
-import prettyLog from "./utils/prettyLog";
+import { prettyLog } from "./utils/prettyLog";
 
 const { params, prefix, owner, name: repoName } = Config.get("repository");
 const { branch, folder, file } = params;
@@ -12,14 +12,14 @@ const { format, public_id: name } = Config.get("cloudinary.image");
 
 const dailyNews = tag
 	.map(
-		t => `## ${t}
+		(t: string) => `## ${t}
 
 - []()：；
 `
 	)
 	.join("\n");
 
-const dailyTemplate = dailyPath => `
+const dailyTemplate = (dailyPath: string) => `
 > # ${repoName}
 
 [![cover][img]][link]
@@ -30,11 +30,11 @@ const dailyTemplate = dailyPath => `
 ${dailyNews}
 `;
 
-export default async () => {
+(async () => {
 	const dailyPath = getNextDaily();
 	const folderName = `${paths.dailyDir}/${dailyPath}`;
 
 	await fse.outputFile(`${folderName}/${file}`, dailyTemplate(dailyPath));
 
 	prettyLog("cyan", "Happy", dailyPath.replace(/\//g, "-"));
-};
+})();

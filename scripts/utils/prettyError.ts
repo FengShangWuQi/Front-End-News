@@ -1,4 +1,4 @@
-import PrettyError from "pretty-error";
+import * as PrettyError from "pretty-error";
 
 const pe = new PrettyError();
 
@@ -16,4 +16,4 @@ pe.appendStyle({
 	},
 });
 
-export default pe;
+export { pe };
