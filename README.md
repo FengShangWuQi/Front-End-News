@@ -2,7 +2,4 @@
 
 > # Daily-Front-End-News
 
-[![cover][img]][link]
-
-[img]: https://github.com/fengshangwuqi/Daily-Front-End-News/blob/master/history/2018/10/01/cover.jpg
-[link]: https://github.com/fengshangwuqi/Daily-Front-End-News/blob/master/history/2018/10/01/cover.jpg
+十月份由于加班较多，未有及时更新，该仓库作者将在十一月以另一种方式维护，感谢大家的订阅。
