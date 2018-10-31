@@ -20,3 +20,5 @@
 ## 新闻
 
 - [RMS 称向内核贡献的代码不能撤回](https://www.itwire.com/open-source/84683-linux-code-contributions-cannot-be-rescinded-stallman.html)：Linux 作者 Linus Torvalds 最近决定休假反省行为，而 Linux 社区则在随后引入了新的社区行为准则。如果有内核开发者因违反新的行为准则而受到惩罚，那么他们是否可能要求从内核中撤回已经贡献的代码；
+
+**十月份由于加班较多，未有及时更新，该仓库作者将在十一月以另一种方式维护，感谢大家的订阅。**
