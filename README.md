@@ -2,7 +2,7 @@
 
 ### Tutorials
 
-- [前端 2019 年调查报告](https://mp.weixin.qq.com/s/Ci15hMLil1T_Kwl7IV91lQ)：
+- [前端 2019 年调查报告](https://mp.weixin.qq.com/s/Ci15hMLil1T_Kwl7IV91lQ)：本年的结果有超过 3000 多人参加调用，共有 27 个问题，问题覆盖前端工具以及思想方法论。
 
 ### Star
 
