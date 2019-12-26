@@ -7,7 +7,7 @@
     "check": "npm-check -u -E",
     "tsc": "tsc --noEmit",
     "format": "prettier --write '**/*.{ts,json,md}'",
-    "start": "ts-node ./scripts/daily.ts"
+    "start": "ts-node ./daily.ts"
   },
   "husky": {
     "hooks": {
