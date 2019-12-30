@@ -8,14 +8,17 @@ jobs:
   bot:
     runs-on: ubuntu-latest
     steps:
-        uses: actions/checkout@master
-        uses: actions/setup-node@v1
+      - uses: actions/checkout@master
+      - uses: actions/setup-node@v1
         with:
           node-version: '10.x'
-        run: npm start
+      - run: npm ci
+      - run: npm start
 
-        uses: peaceiris/actions-gh-pages@v2
+      - uses: peaceiris/actions-gh-pages@v2
         env:
-          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+          ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           PUBLISH_BRANCH: master
           PUBLISH_DIR: README.md
+        with:
+          keepFiles: true
