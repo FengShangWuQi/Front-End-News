@@ -11,7 +11,7 @@ const formatDate = (num: number) => {
   const date = formatDate(new Date().getDate());
 
   const data = fse.readFileSync(`${year}/${momth}/${date}.md`, "utf-8");
-  fse.outputFileSync("README.md", data, "utf8");
+  fse.outputFileSync("public/README.md", data, "utf8");
 
   console.log();
   console.log(
