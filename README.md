@@ -2,12 +2,12 @@
 
 ### Tutorials
 
-- [Vue 3.0 设计原则](https://vuetoronto.com/videos/design-principles-of-vue-3-evan-you/)：尤雨溪在 Toronto 2019 的演讲，分享了 Vue 3.0 的更改以及背后的取舍。
+- [纯前端实现人脸识别自动佩戴圣诞帽](https://juejin.im/post/5e02b73fe51d455807699b1f)：本文教大家如何利用机器学习给头像添加圣诞帽。
 
-- [基于 RBAC 的前端权限控制](https://zhuanlan.zhihu.com/p/99172614)：当我们讨论到前端应用的权限控制时，不是在讨论如何去控制权限，而是在讨论如何将用户权限反映到页面元素的显隐上。如果用户没有权限访问请求，不仅会造成请求资源的浪费，还会降低用户体验。前端的权限控制就是为了解决这类问题。**RBAC** 是目前普遍使用的一种权限模型。本文会讨论如何基于 RBAC 权限模型去实现前端应用的权限控制。
+- [精读《极客公园 IFX - 上》](https://zhuanlan.zhihu.com/p/100120633)：本文为极客大会的感悟，主题是总结互联网前 10 年的发展，并预测下一个 10 年的变化。
 
 ### Star
 
-- [MichaelMure/mdr](https://github.com/MichaelMure/mdr)：在终端中查看 Markdown。
+- [patorjk/figlet.js](https://github.com/patorjk/figlet.js#readme)：FIGlet 是基于 ASCII 字符组成的字符画，作用是在 JavaScript 中贯彻 FIGFont 规范，网页控制台打印的特殊文字就是由这个实现。
 
-- [rogerzhu/NBAsh](https://github.com/rogerzhu/NBAsh)：在终端中观看 NBA 比分直播，球员数据。
+- [axuebin/github-yearly-report](https://github.com/axuebin/github-yearly-report)：GitHub 非官方年终数据报告。
