@@ -1,13 +1,1 @@
 > # daily-front-end-news
-
-### Tutorials
-
-- [Vue 3.0 设计原则](https://vuetoronto.com/videos/design-principles-of-vue-3-evan-you/)：尤雨溪在 Toronto 2019 的演讲，分享了 Vue 3.0 的更改以及背后的取舍。
-
-- [基于 RBAC 的前端权限控制](https://zhuanlan.zhihu.com/p/99172614)：当我们讨论到前端应用的权限控制时，不是在讨论如何去控制权限，而是在讨论如何将用户权限反映到页面元素的显隐上。如果用户没有权限访问请求，不仅会造成请求资源的浪费，还会降低用户体验。前端的权限控制就是为了解决这类问题。**RBAC** 是目前普遍使用的一种权限模型。本文会讨论如何基于 RBAC 权限模型去实现前端应用的权限控制。
-
-### Star
-
-- [MichaelMure/mdr](https://github.com/MichaelMure/mdr)：在终端中查看 Markdown。
-
-- [rogerzhu/NBAsh](https://github.com/rogerzhu/NBAsh)：在终端中观看 NBA 比分直播，球员数据。
