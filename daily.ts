@@ -10,10 +10,11 @@ const formatDate = (num: number) => {
   const momth = formatDate(new Date().getMonth() + 1);
   const date = formatDate(new Date().getDate());
 
-  const dailyFile = `./${year}/${momth}/${date}.md`;
-  const targetFile = "./public/README.md";
+  const daily = `${year}/${momth}/${date}`;
+  const dailyFile = `./${daily}.md`;
+  const targetFolder = "./public";
 
-  fse.copy(dailyFile, targetFile, err => {
+  fse.copy(dailyFile, `${targetFolder}/README.md`, err => {
     console.log();
 
     if (err) {
@@ -23,6 +24,8 @@ const formatDate = (num: number) => {
       );
       return;
     }
+
+    fse.moveSync(dailyFile, `${targetFolder}/${daily}.md`);
 
     console.log(chalk.bold.inverse.green("success"), chalk.bold.dim("deploy"));
   });

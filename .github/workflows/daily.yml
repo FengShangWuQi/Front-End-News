@@ -1,8 +1,10 @@
 name: 'daily'
 on:
   push:
+    branches:
+      - dev
   schedule:
-    - cron: '0 16 * * *'
+    - cron: '0 16 * * 1-5'
 
 jobs:
   bot:
