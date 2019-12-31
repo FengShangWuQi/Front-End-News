@@ -10,12 +10,20 @@ const formatDate = (num: number) => {
   const momth = formatDate(new Date().getMonth() + 1);
   const date = formatDate(new Date().getDate());
 
-  const data = fse.readFileSync(`${year}/${momth}/${date}.md`, "utf-8");
-  fse.outputFileSync("public/README.md", data, "utf8");
+  const dailyFile = `./${year}/${momth}/${date}.md`;
+  const targetFile = "./public/README.md";
 
-  console.log();
-  console.log(
-    chalk.bold.inverse.green("success"),
-    chalk.yellow.bold("migrate"),
-  );
+  fse.copy(dailyFile, targetFile, err => {
+    console.log();
+
+    if (err) {
+      console.log(
+        chalk.bold.inverse.yellow("warning"),
+        chalk.bold.dim("today is not a work day, enjoy your short vacation"),
+      );
+      return;
+    }
+
+    console.log(chalk.bold.inverse.green("success"), chalk.bold.dim("deploy"));
+  });
 })();
