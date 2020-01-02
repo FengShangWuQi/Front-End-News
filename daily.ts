@@ -1,5 +1,6 @@
 import * as fse from "fs-extra";
 import * as chalk from "chalk";
+import * as path from "path";
 
 const formatDate = (num: number) => {
   return num < 10 ? `0${num}` : num;
@@ -11,10 +12,12 @@ const formatDate = (num: number) => {
   const date = formatDate(new Date().getDate());
 
   const daily = `${year}/${momth}/${date}`;
-  const dailyFile = `./${daily}.md`;
-  const targetFolder = "./public";
 
-  fse.copy(dailyFile, `${targetFolder}/README.md`, err => {
+  const dailyFile = path.join(__dirname, `${daily}.md`);
+  const targetFile = path.join(__dirname, "public", "README.md");
+  const currFile = path.join(__dirname, "public", `${daily}.md`);
+
+  fse.copy(dailyFile, targetFile, err => {
     console.log();
 
     if (err) {
@@ -25,7 +28,7 @@ const formatDate = (num: number) => {
       return;
     }
 
-    fse.moveSync(dailyFile, `${targetFolder}/${daily}.md`);
+    fse.copySync(dailyFile, currFile);
 
     console.log(chalk.bold.inverse.green("success"), chalk.bold.dim("deploy"));
   });
