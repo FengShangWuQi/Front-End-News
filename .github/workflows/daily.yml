@@ -1,0 +1,32 @@
+name: 'daily'
+on:
+  schedule:
+    - cron: '0 16 * * *'
+
+jobs:
+  bot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master 
+        with:
+          ref: dev
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '10.x'
+      - run: npm ci
+      - run: npm start
+
+      - uses: actions/cache@v1
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+      - uses: peaceiris/actions-gh-pages@v2
+        env:
+          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+          PUBLISH_BRANCH: master
+          PUBLISH_DIR: ./public
+        with:
+          keepFiles: true
+          emptyCommits: false
