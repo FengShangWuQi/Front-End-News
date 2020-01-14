@@ -1,7 +1,7 @@
-name: 'daily'
+name: daily
 on:
   schedule:
-    - cron: '0 16 * * *'
+    - cron: 55 3 * * *
 
 jobs:
   bot:
