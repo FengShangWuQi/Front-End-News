@@ -1,8 +1,7 @@
 name: 'daily'
 on:
-  push:
-    branches:
-      - dev
+  schedule:
+    - cron: '0 6 * * *'
 
 jobs:
   bot:
