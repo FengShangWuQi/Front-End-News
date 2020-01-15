@@ -7,9 +7,11 @@ const formatDate = (num: number) => {
 };
 
 (() => {
-  const year = new Date().getFullYear();
-  const momth = formatDate(new Date().getMonth() + 1);
-  const date = formatDate(new Date().getDate());
+  const now = new Date();
+
+  const year = now.getUTCFullYear();
+  const momth = formatDate(now.getUTCMonth() + 1);
+  const date = formatDate(now.getUTCDate());
 
   const daily = `${year}/${momth}/${date}`;
 
@@ -30,6 +32,9 @@ const formatDate = (num: number) => {
 
     fse.copySync(dailyFile, currFile);
 
-    console.log(chalk.bold.inverse.green("success"), chalk.bold.dim("deploy"));
+    console.log(
+      chalk.bold.inverse.green("success"),
+      chalk.bold.dim(`deploy - ${daily}`),
+    );
   });
 })();
