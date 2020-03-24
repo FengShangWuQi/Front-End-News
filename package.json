@@ -4,41 +4,27 @@
   "description": "前端每日前沿资讯推送",
   "author": "fengshangwuqi <fengshangwuqi@gmail.com>",
   "scripts": {
-    "check": "npm-check -u -E",
     "tsc": "tsc --noEmit",
     "format": "prettier --write '**/*.{ts,json,md}'",
     "start": "ts-node ./daily.ts"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "npm run tsc",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
-  "lint-staged": {
-    "**/*.{ts,md,json}": [
-      "prettier --write",
-      "git add"
-    ]
   },
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
     ]
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged",
+      "pre-push": "yarn tsc",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
   "devDependencies": {
-    "@commitlint/cli": "8.2.0",
-    "@commitlint/config-conventional": "8.2.0",
+    "@fengshangwuqi/dev-deps": "1.0.0",
     "@types/fs-extra": "8.0.1",
     "chalk": "3.0.0",
-    "fs-extra": "8.1.0",
-    "husky": "3.1.0",
-    "lint-staged": "9.5.0",
-    "npm-check": "5.9.0",
-    "prettier": "1.19.1",
-    "ts-node": "8.5.4",
-    "typescript": "3.7.4"
+    "fs-extra": "8.1.0"
   },
   "license": "MIT"
 }
