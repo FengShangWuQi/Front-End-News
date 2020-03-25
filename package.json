@@ -1,6 +1,6 @@
 {
-  "private": true,
   "name": "daily-front-end-news",
+  "private": true,
   "description": "前端每日前沿资讯推送",
   "author": "fengshangwuqi <fengshangwuqi@gmail.com>",
   "scripts": {
@@ -20,11 +20,13 @@
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
+  "dependencies": {
+    "chalk": "3.0.0",
+    "fs-extra": "9.0.0"
+  },
   "devDependencies": {
     "@fengshangwuqi/dev-deps": "1.0.0",
-    "@types/fs-extra": "8.0.1",
-    "chalk": "3.0.0",
-    "fs-extra": "8.1.0"
+    "@types/fs-extra": "8.0.1"
   },
   "license": "MIT"
 }
