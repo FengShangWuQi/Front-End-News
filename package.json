@@ -21,13 +21,13 @@
     }
   },
   "dependencies": {
-    "chalk": "3.0.0",
+    "chalk": "4.0.0",
     "date-fns": "2.14.0",
     "fs-extra": "9.0.0"
   },
   "devDependencies": {
-    "@fengshangwuqi/dev-deps": "1.0.0",
-    "@types/fs-extra": "8.0.1"
+    "@fengshangwuqi/dev-deps": "1.0.5",
+    "@types/fs-extra": "9.0.1"
   },
   "license": "MIT"
 }
