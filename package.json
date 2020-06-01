@@ -4,7 +4,6 @@
   "description": "前端每日前沿资讯推送",
   "author": "fengshangwuqi <fengshangwuqi@gmail.com>",
   "scripts": {
-    "tsc": "tsc --noEmit",
     "format": "prettier --write '**/*.{ts,json,md}'",
     "start": "ts-node ./daily.ts"
   },
@@ -16,7 +15,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged",
-      "pre-push": "yarn tsc",
+      "pre-push": "tsc",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
