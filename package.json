@@ -1,6 +1,6 @@
 {
-  "name": "daily-front-end-news",
   "private": true,
+  "name": "daily-front-end-news",
   "description": "前端每日前沿资讯推送",
   "author": "fengshangwuqi <fengshangwuqi@gmail.com>",
   "scripts": {
