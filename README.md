@@ -2,8 +2,10 @@
 
 ### Front-end
 
-- [我是怎样通过个人项目成长为高级 JavaScript 开发者的](https://www.infoq.cn/article/h5VgHNV2vba9JCpcdETJ)：在作者的开发人员职业生涯中，最好的决定之一就是不满足于只做工具的使用者，而是成为工具的创造者；
+- [Scott：总结 10 年前端经验，谈谈前端人如何更快地成长](https://www.infoq.cn/article/SDZ4cMf1jdiDKm1dNP9s)：结构化思考、体系化推进，脑袋中要逼自己时刻装着一张公司全盘图；这张图里面要行业、公司目标、老板目标、团队现状、人员诉求、组织环境…；以业务为坐标，以结果为导向，任何决策都要基于业务和结果设定和衡量，etc；
 
-- [DevTools（Chrome 86）的新增功能](https://developers.google.com/web/updates/2020/08/devtools): 通过控制台节点的右键菜单对节点进行截图等；
+- [自绘引擎时代，为什么 Flutter 能突出重围？](https://www.infoq.cn/article/XqgGDfq2Uazug881G89M)：Flutter 框架是当下非常热门的跨端解决方案，能够帮助开发者通过一套代码库高效构建多平台精美应用，支持移动、Web、桌面等多端开发。本文将深入浅出和大家聊聊 Flutter 的设计背景、技术特点，以及与其他同类技术之间的对比；
 
-- [如何设计 JavaScript 插件机制](https://css-tricks.com/designing-a-javascript-plugin-system/): 良好的插件机制可以帮助库和框架更好的扩展，本文通过实例列举了一些设计插件机制的注意事项；
+### News
+
+- [TikTok 的交易将面临中国的出口审查](http://stock.stockstar.com/SS2020083100000168.shtml)：8 月 14 日，美国总统特朗普签署行政令，要求中国字节跳动公司在 90 天内剥离抖音海外版(TikTok)在美国运营的所有权益。此时，中国商务部及时更新技术出口限制，等于为字节跳动在核心竞争力上加了一道保险；
