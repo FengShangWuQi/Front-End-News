@@ -176,6 +176,11 @@
     ts-node "8.10.2"
     typescript "3.9.3"
 
+"@fengshangwuqi/ts-config@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@fengshangwuqi/ts-config/-/ts-config-1.0.2.tgz#972bc0e7aa972f5e264a762d53caa61b06ab3b30"
+  integrity sha512-u4nvTmEUWnvr4+of/RG7I79qdZqBWvkeUB+8zHlRBdZQswOBGmiw+gtrIS8zt7fMOy12zZxAshuOQmtoau+71A==
+
 "@marionebl/sander@^0.6.0":
   version "0.6.1"
   resolved "https://registry.npm.taobao.org/@marionebl/sander/download/@marionebl/sander-0.6.1.tgz#1958965874f24bc51be48875feb50d642fc41f7b"
