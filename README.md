@@ -8,6 +8,8 @@
 
 - [苹果：你甚至可以在 Safari 中使用 Chrome 的插件](https://www.infoq.cn/article/TdS104Q68yk3oLONlk9x): 苹果为了让用户使用 Safari 做了诸多努力，此次还在 Safari 中引入 WebExtensions API，使开发者可以通过 Safari WebExtension Converter 开发工具将 Chrome 和 Firefox 等浏览器的插件直接移植到 Safari 中；
 
+- [10 个不那么知名但很实用的 Web API](https://www.infoq.cn/article/wAzNDItOZxirdF4tZ9Up): 本文介绍了 10 个不那么流行的 Web API，不那么流行并不意味着它们没有用处，你可以在项目的各种用例中使用它们；
+
 ### Security
 
 - [TikTok 的应用程序日志都记录了什么内容](https://www.infoq.cn/article/jVs6PYeKeIe13jBE74jJ): 在本文中，作者找到了 TikTok 不同类型日志的定义，并观察了他们是如何动态创建的。经过分析，应用程序日志似乎并不含个人数据。
