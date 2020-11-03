@@ -4,7 +4,7 @@
   "description": "前端每日前沿资讯推送",
   "author": "fengshangwuqi <fengshangwuqi@gmail.com>",
   "scripts": {
-    "format": "prettier --write '**/*.{ts,json,md}'",
+    "format": "prettier --write .'",
     "start": "ts-node ./daily.ts"
   },
   "commitlint": {
@@ -20,12 +20,12 @@
     }
   },
   "dependencies": {
-    "chalk": "4.0.0",
     "date-fns": "2.14.0",
     "fs-extra": "9.0.0"
   },
   "devDependencies": {
     "@fengshangwuqi/dev-deps": "1.0.5",
+    "@fengshangwuqi/logger": "1.0.3",
     "@fengshangwuqi/ts-config": "1.0.2",
     "@types/fs-extra": "9.0.1"
   },

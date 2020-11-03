@@ -176,6 +176,13 @@
     ts-node "8.10.2"
     typescript "3.9.3"
 
+"@fengshangwuqi/logger@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.npm.taobao.org/@fengshangwuqi/logger/download/@fengshangwuqi/logger-1.0.3.tgz?cache=0&sync_timestamp=1604291269894&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40fengshangwuqi%2Flogger%2Fdownload%2F%40fengshangwuqi%2Flogger-1.0.3.tgz#526530d06c8ac9b2f7cae846a3f7aa6430c7d265"
+  integrity sha1-UmUw0GyKybL3yuhGo/eqZDDH0mU=
+  dependencies:
+    chalk "4.1.0"
+
 "@fengshangwuqi/ts-config@1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@fengshangwuqi/ts-config/-/ts-config-1.0.2.tgz#972bc0e7aa972f5e264a762d53caa61b06ab3b30"
@@ -423,7 +430,15 @@ chalk@2.4.2, chalk@^2.0.0, chalk@^2.0.1, chalk@^2.4.2:
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
 
-chalk@4.0.0, chalk@^4.0.0:
+chalk@4.1.0:
+  version "4.1.0"
+  resolved "https://registry.npm.taobao.org/chalk/download/chalk-4.1.0.tgz#4e14870a618d9e2edd97dd8345fd9d9dc315646a"
+  integrity sha1-ThSHCmGNni7dl92DRf2dncMVZGo=
+  dependencies:
+    ansi-styles "^4.1.0"
+    supports-color "^7.1.0"
+
+chalk@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.0.0.tgz#6e98081ed2d17faab615eb52ac66ec1fe6209e72"
   integrity sha512-N9oWFcegS0sFr9oh1oz2d7Npos6vNoWW9HvtCg5N1KRFpUhaAhvTv5Y58g880fZaEYSNm3qDz8SU1UrGvp+n7A==
