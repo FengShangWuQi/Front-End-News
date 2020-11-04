@@ -5,8 +5,8 @@
   "author": "fengshangwuqi <fengshangwuqi@gmail.com>",
   "scripts": {
     "format": "prettier --write .'",
-    "start": "ts-node ./daily.ts",
-    "generate": "ts-node ./script.ts"
+    "generate": "ts-node ./daily.ts",
+    "start": "ts-node ./script.ts"
   },
   "commitlint": {
     "extends": [

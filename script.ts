@@ -24,10 +24,12 @@ const twitterFollowing = ["ruanyf", "infoqchina"];
   for (let username of twitterFollowing) {
     const tweets = await twitter.getTweets(username);
 
-    const list = tweets
-      .map(({ content, link }) => `- [${content}](${link})`)
-      .join("\n");
-    withSection(username, list);
+    if (tweets.length !== 0) {
+      const list = tweets
+        .map(({ content, link }) => `- [${content}](${link})`)
+        .join("\n");
+      withSection(username, list);
+    }
   }
 
   await browser.close();

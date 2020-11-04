@@ -24,7 +24,8 @@ export class Twitter {
     await this.page.type("input[name='session[password]']", password);
     await this.page.click("[data-testid='LoginForm_Login_Button']");
 
-    await this.page.waitForSelector("[data-testid='tweet']");
+    await this.page.waitForNavigation();
+    await this.page.waitForNavigation({ timeout: 0 });
   }
 
   async getTweets(username: string) {
@@ -59,10 +60,11 @@ export class Twitter {
           this.period
       );
 
-      data.forEach((item) => set.add(item));
+      finalData.forEach((item) => set.add(item));
 
       if (data.length !== finalData.length) {
         flag = false;
+        break;
       }
 
       await this.page.evaluate(() => {
