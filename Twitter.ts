@@ -25,13 +25,12 @@ export class Twitter {
     await this.page.click("[data-testid='LoginForm_Login_Button']");
 
     await this.page.waitForNavigation();
-    await this.page.waitForNavigation({ timeout: 0 });
+    await this.page.waitForSelector("[data-testid='tweet']");
   }
 
   async getTweets(username: string) {
     await this.page.goto(`${this.URL}/${username}`);
     await this.page.waitForSelector("[data-testid='tweet']");
-    await this.page.waitForTimeout(2000);
 
     const set = new Set();
     let flag = true;
@@ -70,7 +69,7 @@ export class Twitter {
       await this.page.evaluate(() => {
         window.scrollBy(0, window.innerHeight);
       });
-      await this.page.waitForTimeout(2000);
+      await this.page.waitForTimeout(200);
     }
 
     const arr = Array.from(set);

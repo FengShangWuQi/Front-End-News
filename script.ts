@@ -1,5 +1,6 @@
 import puppeteer from "puppeteer";
 import { writeFile } from "fs-extra";
+import * as logger from "@fengshangwuqi/logger";
 
 import { Twitter } from "./Twitter";
 
@@ -17,14 +18,23 @@ const twitterFollowing = ["ruanyf", "infoqchina"];
     defaultViewport: null,
   });
   const page = await browser.newPage();
+  const newPage = Object.create(page);
 
-  const twitter = new Twitter(page);
+  newPage.goto = (url: string, opts?: puppeteer.DirectNavigationOptions) => {
+    logger.info(`goto: ${url}`);
+    return page.goto(url, opts);
+  };
+
+  await newPage.setDefaultTimeout(0);
+
+  const twitter = new Twitter(newPage);
   await twitter.login();
 
   for (let username of twitterFollowing) {
     const tweets = await twitter.getTweets(username);
 
     if (tweets.length !== 0) {
+      logger.success(`${username}: ${tweets.length} items`);
       const list = tweets
         .map(({ content, link }) => `- [${content}](${link})`)
         .join("\n");
@@ -38,4 +48,6 @@ const twitterFollowing = ["ruanyf", "infoqchina"];
   const title = `> # ${name}`;
 
   await writeFile("./README.md", [title, ...content].join("\n\n"));
+
+  logger.log(`\nend`);
 })();
