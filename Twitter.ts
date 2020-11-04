@@ -33,9 +33,8 @@ export class Twitter {
     await this.page.waitForSelector("[data-testid='tweet']");
 
     const set = new Set();
-    let flag = true;
 
-    while (flag) {
+    while (1) {
       const data = await this.page.evaluate((maxLength) => {
         const arr = Array.from(
           document.querySelectorAll("[data-testid='tweet']")
@@ -62,7 +61,6 @@ export class Twitter {
       finalData.forEach((item) => set.add(item));
 
       if (data.length !== finalData.length) {
-        flag = false;
         break;
       }
 
