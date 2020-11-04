@@ -15,7 +15,6 @@ const twitterFollowing = [
   "Esnextnews",
   "eggheadio",
   "mathias",
-  "williamlong",
 ];
 
 (async () => {
