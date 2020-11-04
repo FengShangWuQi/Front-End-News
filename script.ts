@@ -4,7 +4,19 @@ import * as logger from "@fengshangwuqi/logger";
 
 import { Twitter } from "./Twitter";
 
-const twitterFollowing = ["ruanyf", "infoqchina"];
+const twitterFollowing = [
+  "ProgressBar202_",
+  "ruanyf",
+  "infoqchina",
+  "f2er",
+  "reactjs",
+  "reactdaily",
+  "JavaScriptDaily",
+  "Esnextnews",
+  "eggheadio",
+  "mathias",
+  "williamlong",
+];
 
 (async () => {
   let content = [] as string[];
