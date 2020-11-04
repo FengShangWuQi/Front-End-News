@@ -32,7 +32,7 @@ export class Twitter {
     await this.page.goto(`${this.URL}/${username}`);
     await this.page.waitForSelector("[data-testid='tweet']");
 
-    const set = new Set();
+    const map = new Map();
 
     while (1) {
       const data = await this.page.evaluate((maxLength) => {
@@ -46,7 +46,7 @@ export class Twitter {
             ?.lastChild as any)?.href as string,
           content: (item.lastChild?.lastChild?.textContent as string)
             .slice(0, maxLength)
-            .replace(/\s/g, ""),
+            .replace(/\n/g, ""),
         }));
 
         return result;
@@ -58,7 +58,7 @@ export class Twitter {
           this.period
       );
 
-      finalData.forEach((item) => set.add(item));
+      finalData.forEach((item) => map.set(item.dateTime, item));
 
       if (data.length !== finalData.length) {
         break;
@@ -70,8 +70,8 @@ export class Twitter {
       await this.page.waitForTimeout(200);
     }
 
-    const arr = Array.from(set);
-    const tweets = arr.map(({ link, content }: any) => {
+    const arr = Array.from(map.values());
+    const tweets = arr.map(({ link, content }) => {
       return {
         link,
         content:
