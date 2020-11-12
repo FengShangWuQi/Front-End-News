@@ -1,12 +1,12 @@
 {
   "private": true,
   "name": "daily-front-end-news",
-  "description": "前端每日前沿资讯推送",
+  "description": "前端日报",
   "author": "fengshangwuqi <fengshangwuqi@gmail.com>",
   "scripts": {
     "format": "prettier --write .'",
-    "generate": "ts-node ./daily.ts",
-    "start": "ts-node ./script.ts"
+    "generate": "ts-node daily.ts",
+    "start": "ts-node script.ts"
   },
   "commitlint": {
     "extends": [
