@@ -8,7 +8,7 @@ on:
     - cron: '0 0 * * *'
 
 jobs:
-  bot:
+  sync:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -29,6 +29,10 @@ jobs:
           keepFiles: true
           emptyCommits: false
 
+  issue:
+    runs-on: ubuntu-latest
+    if: "contains(github.event.head_commit.modified, 'issue-template.md')"
+    steps:
       - uses: actions/checkout@v2
         with:
           ref: master
