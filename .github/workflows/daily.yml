@@ -30,6 +30,8 @@ jobs:
           emptyCommits: false
 
       - uses: actions/checkout@v2
+        with:
+          ref: master
       - uses: JasonEtco/create-an-issue@v2
         env:
           GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
