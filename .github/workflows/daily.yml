@@ -3,7 +3,6 @@ on:
   push:
     branches:
       - dev
-      - master
   schedule:
     - cron: '0 0 * * *'
 
