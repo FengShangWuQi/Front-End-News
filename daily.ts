@@ -6,7 +6,7 @@ import * as logger from "@fengshangwuqi/logger";
 (async () => {
   const daily = format(new Date(), "yyyy/MM/dd");
   const output = "public";
-  const issueTitle = `日报@${daily}`;
+  const issueTitle = `title: 日报@${daily}`;
   const issueMeta = ["---", issueTitle, "---"].join("\n");
 
   const dailyFile = join(__dirname, `${daily}.md`);
