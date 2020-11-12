@@ -21,13 +21,12 @@ jobs:
       - run: yarn generate
 
       - uses: peaceiris/actions-gh-pages@v3
-        env:
-          PERSONAL_TOKEN: ${{ secrets.REPO_TOKEN }}
-          PUBLISH_BRANCH: master
-          PUBLISH_DIR: ./public
         with:
-          keepFiles: true
-          emptyCommits: false
+          github_token: ${{ secrets.REPO_TOKEN }}
+          publish_branch: master
+          publish_dir: ./public
+          keep_files: true
+          allow_empty_commit: false
 
   issue:
     runs-on: ubuntu-latest
