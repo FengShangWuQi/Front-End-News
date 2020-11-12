@@ -1,5 +1,9 @@
 name: daily
 on:
+  push:
+    branches:
+      - dev
+      - master
   schedule:
     - cron: '0 0 * * *'
 
@@ -7,12 +11,12 @@ jobs:
   bot:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v2
         with:
           ref: dev
-      - uses: actions/setup-node@v1
+      - uses: actions/setup-node@v2-beta
         with:
-          node-version: '10.x'
+          node-version: '15'
       - run: yarn
       - run: yarn generate
 
@@ -24,3 +28,12 @@ jobs:
         with:
           keepFiles: true
           emptyCommits: false
+
+      - uses: actions/checkout@v2
+      - uses: JasonEtco/create-an-issue@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
+        with:
+          filename: .github/issue-template.md
+      - run: 'echo Created issue number ${{ steps.create-issue.outputs.number }}'
+      - run: 'echo Created ${{ steps.create-issue.outputs.url }}'
