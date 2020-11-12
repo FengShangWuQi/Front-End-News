@@ -12,7 +12,7 @@ import * as logger from "@fengshangwuqi/logger";
   const dailyFile = join(__dirname, `${daily}.md`);
   const targetFile = join(__dirname, output, "README.md");
   const currFile = join(__dirname, output, `${daily}.md`);
-  const issueFile = join(__dirname, output, ".github", "issue-template.md");
+  const issueFile = join(__dirname, output, "issue-template.md");
 
   try {
     await copy(dailyFile, targetFile);
