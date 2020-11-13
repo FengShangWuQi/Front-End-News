@@ -1,0 +1,29 @@
+name: daily
+on:
+  push:
+    branches:
+      - dev
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: dev
+      - uses: actions/setup-node@v2-beta
+        with:
+          node-version: "15"
+      - run: yarn
+      - run: yarn generate
+
+      - uses: peaceiris/actions-gh-pages@v2
+        env:
+          PERSONAL_TOKEN: ${{ secrets.REPO_TOKEN }}
+          PUBLISH_BRANCH: main
+          PUBLISH_DIR: ./public
+        with:
+          keepFiles: true
+          emptyCommits: false
