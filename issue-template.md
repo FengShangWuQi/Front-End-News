@@ -1,8 +1,16 @@
 ---
-title: 日报@2020/11/12
+title: 日报@2020/11/13
 ---
 > # daily-front-end-news
 
-### Front-end
+### Front-End
 
-- [300 个主管招聘 1000 个前端的故事](https://www.yuque.com/iscott/fe/lg7sn0): 理论上，具备核心竞争力的团队，招聘不应该成为一件难事，具备核心竞争力的个人，求职也不应成为一件难事，然后往往事与愿违，本文旨在帮助所有的前端候选人了解到市场缺口的机会是存在的，也让所有主管了解到在有限的池子里要想抢占招聘制高点，你必须做哪些准备
+- [10 个 React 安全最佳实践](https://snyk.io/blog/10-react-security-best-practices/): 如何保障 React 应用的安全
+
+- [使用 CSS 变量替代 React Context](https://epicreact.dev/css-variables/): 如何以及为什么选择 CSS 变量来实现主题，而不是 React Content
+
+### Repo
+
+- [jes/seasonal-css](https://seasonal-css.incoherency.co.uk/): 提供基于一年中某一天的季节性配色方案
+
+- [naver/egjs-flicking](https://github.com/naver/egjs-flicking): 可靠、灵活和可扩展的轮播
