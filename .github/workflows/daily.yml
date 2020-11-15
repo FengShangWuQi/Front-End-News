@@ -5,8 +5,6 @@ on:
       - dev
     paths:
       - "**.md"
-  schedule:
-    - cron: "0 0 * * *"
 
 jobs:
   sync:
