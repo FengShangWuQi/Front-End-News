@@ -1,0 +1,32 @@
+name: Daily
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "**.md"
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  issue:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v2-beta
+        with:
+          node-version: "15"
+      - run: yarn
+      - run: yarn start
+
+      - uses: JasonEtco/create-an-issue@v2
+        if: ${{ hashFiles('issue-template.md') }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
+        with:
+          filename: issue-template.md
+      - run: "echo Created issue number ${{ steps.create-issue.outputs.number }}"
+      - run: "echo Created ${{ steps.create-issue.outputs.url }}"
