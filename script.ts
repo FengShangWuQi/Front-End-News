@@ -2,7 +2,7 @@ import puppeteer from "puppeteer";
 import { writeFile } from "fs-extra";
 import * as logger from "@fengshangwuqi/logger";
 
-import { Twitter } from "./Twitter";
+import { Twitter } from "./twitter";
 
 const twitterFollowing = [
   "ProgressBar202_",
