@@ -1,10 +1,5 @@
 name: Daily
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - "**.md"
   schedule:
     - cron: "0 0 * * *"
 
