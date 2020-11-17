@@ -6,5 +6,5 @@
       "automerge": true
     }
   ],
-  "baseBranches": ["dev"]
+  "baseBranches": ["main", "dev"]
 }
