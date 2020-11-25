@@ -1,11 +1,15 @@
 name: Daily
 on:
+  push:
+    branches:
+      - main
   schedule:
     - cron: "0 0 * * *"
 
 jobs:
   issue:
     runs-on: ubuntu-latest
+    if: "contains(github.event.head_commit.message, 'docs(r)') || contains(github.event.schedule, '0 0 * * *')"
     steps:
       - uses: actions/checkout@v2
         with:
